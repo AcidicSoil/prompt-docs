@@ -1,5 +1,3 @@
-<!-- path: docs/index.md -->
-
 # Prompt Docs
 
 A structured playbook for ideation → scaffold → implementation → refactor → testing → docs → release.
@@ -41,7 +39,7 @@ Use the sidebar to explore, or jump straight into a workflow below.
   - **20 · Implementation** → [Impl](temp-prompts-organized/20-implementation/impl/commit.impl.md), [Review](temp-prompts-organized/20-implementation/review/review.review.md), [Spec-oriented](temp-prompts-organized/20-implementation/spec-orient/explain-code.spec-orient.md)
   - **30 · Refactor** → [Refactor file](temp-prompts-organized/30-refactor/refactor/refactor-file.refactor.md), [Perf eval](temp-prompts-organized/30-refactor/perf/model-evaluation.perf.md)
   - **40 · Testing** → [Integration test](temp-prompts-organized/40-testing/gen-tests/integration-test.gen-tests.md), [Flake fixes](temp-prompts-organized/40-testing/fix-flakes/explain-failures.fix-flakes.md)
-  - **50 · Docs** → [API docs (local)](temp-prompts-organized/50-docs/api-docs/api-docs-local.api-docs.md), [Contributing](temp-prompts-organized/50-docs/project-contributing.docs.md)
+  - **50 · Docs** → [API docs (local)](temp-prompts-organized/50-docs/api-docs/api-docs-local.api-docs.md)
   - **60 · Release** → [Changelog from commits](temp-prompts-organized/60-release/changelog/from-commits.changelog.md), [Post-release checks](temp-prompts-organized/60-release/post-release-checks/license-report.post-release-checks.md)
 
 - **Temp Prompts (refactored)** — same ideas, reworked as single-file flows:
