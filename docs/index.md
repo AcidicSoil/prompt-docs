@@ -3,7 +3,7 @@
 A structured playbook for ideation → scaffold → implementation → refactor → testing → docs → release.
 Use the sidebar to explore, or jump straight into a workflow below.
 
-[Get Started](#quick-start) {: .md-button } [Browse Sections](#whats-inside) {: .md-button } [Contribute](#contributing) {: .md-button }
+[Get Started](#quick-start)[Browse Sections](#whats-inside)[Contribute](#contributing)
 
 ---
 
@@ -90,7 +90,7 @@ Use the sidebar to explore, or jump straight into a workflow below.
 3. Submit a PR—use the [PR description helper](temp-prompts-organized/20-implementation/review/pr-desc.review.md).
 4. After merge, the site auto-deploys (using `mkdocs build` + Pages).
 
-[Open a new issue](https://github.com/AcidicSoil/prompt-docs/issues/new) {: .md-button } [Propose a change](https://github.com/AcidicSoil/prompt-docs/pulls) {: .md-button }
+[Open a new issue](https://github.com/AcidicSoil/prompt-docs/issues/new)  [Propose a change](https://github.com/AcidicSoil/prompt-docs/pulls)
 
 ---
 
