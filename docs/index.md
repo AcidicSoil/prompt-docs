@@ -1,3 +1,9 @@
+<div align="center" markdown>
+  <img src="assets/img/hero.png" alt="Prompt Docs" width="860">
+  <p><em>Your playbook for plan → build → ship.</em></p>
+</div>
+
+
 # Prompt Docs
 
 A structured playbook for ideation → scaffold → implementation → refactor → testing → docs → release.
