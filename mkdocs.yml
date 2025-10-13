@@ -6,7 +6,7 @@ edit_uri: edit/main/docs
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/logo-wordmark.png
+  logo: assets/img/logo-wordmark.png
   favicon: assets/img/favicon-32x32.png
   features:
     - navigation.instant
@@ -190,9 +190,8 @@ nav:
           - System-level instruction editor: temp-prompts-organized/_templates/system-level-instruction-editor.templates.md
 
       - Codefetch:
-          - Codebase: temp-prompts-organized/codefetch/codebase.md
+          - Codebase: temp-prompts-organized/codebase.md
 
-      - Other:
 
   - Temp Prompts (refactored):
       - 3-step process (pre-refactor): temp-prompts-refactored/3-step-process-b4-refactoring.md
