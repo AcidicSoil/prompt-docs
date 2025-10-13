@@ -6,7 +6,6 @@ edit_uri: edit/main/docs
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/img/logo-wordmark.png
   favicon: assets/img/favicon-32x32.png
   features:
     - navigation.instant
