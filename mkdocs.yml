@@ -5,6 +5,7 @@ edit_uri: edit/main/docs
 
 theme:
   name: material
+  logo: assets/logo-wordmark.png
   custom_dir: overrides
   favicon: assets/img/favicon-32x32.png
   features:
