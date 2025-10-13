@@ -29,3 +29,4 @@ node_modules/
 .__codefetch/
 codefetch.config.mjs
 .codefetchignore
+.genkit/
