@@ -1,13 +1,7 @@
-<!-- path: mkdocs.yml -->
 site_name: Prompt Docs
 site_url: https://acidicsoil.github.io/prompt-docs/
 repo_url: https://github.com/AcidicSoil/prompt-docs
-edit_uri: edit/main/
-
-# Treat the repo root as the docs source, and emit the built site into /docs
-# so GitHub Pages (main /docs) serves the generated HTML.
-docs_dir: .
-site_dir: docs
+edit_uri: edit/main/docs
 
 theme:
   name: material
@@ -156,8 +150,6 @@ nav:
           - Examples:
               - API usage: temp-prompts-organized/50-docs/examples/api-usage.examples.md
               - Reference implementation: temp-prompts-organized/50-docs/examples/reference-implementation.examples.md
-          - Contributing: temp-prompts-organized/50-docs/project-contributing.docs.md
-          - Project README: temp-prompts-organized/50-docs/project-readme.docs.md
 
       - 60 · Release:
           - Changelog:
@@ -198,7 +190,6 @@ nav:
           - Codebase: temp-prompts-organized/codefetch/codebase.md
 
       - Other:
-          - Temp prompt worklist: temp-prompts-organized/temp-prompt-worklist.md
 
   - Temp Prompts (refactored):
       - 3-step process (pre-refactor): temp-prompts-refactored/3-step-process-b4-refactoring.md
