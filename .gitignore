@@ -24,4 +24,8 @@ node_modules/
 # OS specific
 .DS_Store
 .taskmaster/
+.venv
 
+.__codefetch/
+codefetch.config.mjs
+.codefetchignore
