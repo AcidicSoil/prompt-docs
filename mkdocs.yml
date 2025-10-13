@@ -5,9 +5,9 @@ edit_uri: edit/main/docs
 
 theme:
   name: material
-  logo: docs/assets/img/logo-32.svg
+  logo: assets/img/logo-32.svg
   custom_dir: overrides
-  favicon: docs/assets/img/logo-32.svg
+  favicon: assets/img/favicon.ico
   features:
     - navigation.instant
     - navigation.sections

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://acidicsoil.github.io/prompt-docs/"><img src="https://github.com/AcidicSoil/Prompt-Docs/b/main/docs/assets/img/logo-wordmark.png" alt="Prompt-Docs"></a>
+  <a href="https://acidicsoil.github.io/prompt-docs/"><img src="docs/assets/img/logo-wordmark.png" alt="Prompt-Docs"></a>
 </p>
 <p align="center">
 
