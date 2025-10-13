@@ -1,14 +1,13 @@
-<p align="center">
-  <a href="https://acidicsoil.github.io/prompt-docs/"><img src="https://github.com/AcidicSoil/prompt-docs/main/assets/img/logo-wordmark.png" alt="prompt-docs"></a>
-</p>
-<p align="center">
-
 # Prompt Docs
 
 A structured playbook for ideation → scaffold → implementation → refactor → testing → docs → release.
 Use the sidebar to explore, or jump straight into a workflow below.
 
-[Get Started](#quick-start)[Browse Sections](#whats-inside)[Contribute](#contributing)
+[Get Started](#quick-start)
+
+[Browse Sections](#whats-inside)
+
+[Contribute](#contributing)
 
 ---
 

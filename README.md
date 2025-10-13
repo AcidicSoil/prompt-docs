@@ -1,4 +1,9 @@
-# Prompt Engineering Docs
+<p align="center">
+  <a href="https://acidicsoil.github.io/prompt-docs/"><img src="https://github.com/AcidicSoil/Prompt-Docs/b/main/docs/assets/img/logo-wordmark.png" alt="Prompt-Docs"></a>
+</p>
+<p align="center">
+
+# Prompt Docs
 
 This repository contains a collection of prompts for various software engineering tasks. The prompts are organized and documented to be used with Large Language Models (LLMs) to streamline development workflows.
 
