@@ -7,7 +7,7 @@ theme:
   name: material
   logo: assets/img/logo-32.svg
   custom_dir: overrides
-  favicon: assets/img/favicon.ico
+  favicon: assets/img/favicon-32.ico
   features:
     - navigation.instant
     - navigation.sections
