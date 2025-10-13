@@ -1,11 +1,16 @@
+<!-- path: mkdocs.yml -->
 site_name: Prompt Docs
 site_url: https://acidicsoil.github.io/prompt-docs/
 repo_url: https://github.com/AcidicSoil/prompt-docs
-edit_uri: edit/main/docs/
+edit_uri: edit/main/
+
+# Treat the repo root as the docs source, and emit the built site into /docs
+# so GitHub Pages (main /docs) serves the generated HTML.
+docs_dir: .
+site_dir: docs
+
 theme:
   name: material
-  logo: assets/logo-wordmark.png
-  favicon: assets/favicon-32x32.png
   features:
     - navigation.instant
     - navigation.sections
@@ -14,7 +19,7 @@ theme:
     - search.share
     - content.code.copy
     - content.tabs.link
-palette:
+  palette:
     - scheme: default
       primary: indigo
       accent: indigo
@@ -24,6 +29,29 @@ palette:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.arithmatex:
+      generic: true
+
 nav:
   - Home: index.md
 
@@ -278,3 +306,4 @@ nav:
       - Version control guide: temp-prompts-refactored/version-control-guide.md
       - Version proposal: temp-prompts-refactored/version-proposal.md
       - Voice input: temp-prompts-refactored/voice-input.md
+
