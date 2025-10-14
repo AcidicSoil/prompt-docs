@@ -30,3 +30,4 @@ node_modules/
 codefetch.config.mjs
 .codefetchignore
 .genkit/
+codefetch/

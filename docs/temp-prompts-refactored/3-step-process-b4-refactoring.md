@@ -1,3 +1,4 @@
+```md
 <!-- $1 = task description (e.g., "Refactor email configuration") -->
 <!-- $2 = list of files to modify (e.g., ["src/config/email.ts"]) -->
 <!-- $3 = sample refactor file path (e.g., "src/config/email.ts") -->
@@ -14,3 +15,4 @@
 
 ## provide sample refactor implementation
 3. Provide a sample refactor for $3
+```
