@@ -73,11 +73,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#3-step-process-b4-refactoring" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -5079,21 +5074,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    3-step process (pre-refactor)
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -5106,52 +5086,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#describe-the-task-and-call-the-plan-tool" class="md-nav__link">
-    <span class="md-ellipsis">
-      describe the task and call the plan tool
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#identify-target-files-for-modification" class="md-nav__link">
-    <span class="md-ellipsis">
-      identify target files for modification
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#provide-sample-refactor-implementation" class="md-nav__link">
-    <span class="md-ellipsis">
-      provide sample refactor implementation
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -7574,43 +7508,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#describe-the-task-and-call-the-plan-tool" class="md-nav__link">
-    <span class="md-ellipsis">
-      describe the task and call the plan tool
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#identify-target-files-for-modification" class="md-nav__link">
-    <span class="md-ellipsis">
-      identify target files for modification
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#provide-sample-refactor-implementation" class="md-nav__link">
-    <span class="md-ellipsis">
-      provide sample refactor implementation
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -7629,24 +7526,25 @@
   
 
 
-<!-- $1 = task description (e.g., "Refactor email configuration") -->
-<!-- $2 = list of files to modify (e.g., ["src/config/email.ts"]) -->
-<!-- $3 = sample refactor file path (e.g., "src/config/email.ts") -->
+  <h1>3-step process (pre-refactor)</h1>
 
-<p><strong>Refactoring Pre-Refactor Process</strong></p>
-<h1 id="3-step-process-b4-refactoring">3-step-process-b4-refactoring<a class="headerlink" href="#3-step-process-b4-refactoring" title="Permanent link">&para;</a></h1>
-<h2 id="describe-the-task-and-call-the-plan-tool">describe the task and call the plan tool<a class="headerlink" href="#describe-the-task-and-call-the-plan-tool" title="Permanent link">&para;</a></h2>
-<ol>
-<li>$1. Draft a plan (don't code)</li>
-</ol>
-<h2 id="identify-target-files-for-modification">identify target files for modification<a class="headerlink" href="#identify-target-files-for-modification" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Conduct code analysis to determine files requiring modification: $2</li>
-</ol>
-<h2 id="provide-sample-refactor-implementation">provide sample refactor implementation<a class="headerlink" href="#provide-sample-refactor-implementation" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Provide a sample refactor for $3</li>
-</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&lt;!-- $1 = task description (e.g., &quot;Refactor email configuration&quot;) --&gt;
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>&lt;!-- $2 = list of files to modify (e.g., [&quot;src/config/email.ts&quot;]) --&gt;
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>&lt;!-- $3 = sample refactor file path (e.g., &quot;src/config/email.ts&quot;) --&gt;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="gs">**Refactoring Pre-Refactor Process**</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="gh"># 3-step-process-b4-refactoring</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="gu">## describe the task and call the plan tool</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="k">1.</span> $1. Draft a plan (don&#39;t code)
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="gu">## identify target files for modification</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">2.</span> Conduct code analysis to determine files requiring modification: $2
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="gu">## provide sample refactor implementation</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="k">3.</span> Provide a sample refactor for $3
+</code></pre></div>
 
 
 
