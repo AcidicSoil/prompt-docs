@@ -13,6 +13,16 @@ Use the sidebar to explore, or jump straight into a workflow below.
 
 ## Quick start
 
+!!! tip "New Workflow!"
+    - QA-ready_refactor-plan
+    - ops_apply
+    - ops_quality
+
+=== "Try these out first"
+    - Need to refactor? Run first [QA-ready_refactor-plan](temp-prompts-organized/_experimental/QA-ready_refactor-plan.experimental.md)
+    - Then, Run second [ops_apply](temp-prompts-organized/_experimental/ops_apply.experimental.md)
+    - If needed, run [ops_quality](temp-prompts-organized/_experimental/ops_quality.experimental.md)
+
 !!! tip "First time here?"
     - Skim the **3 lanes** below (Plan / Build / Ship).
     - Use the **search** in the top-right.

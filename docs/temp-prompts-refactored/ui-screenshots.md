@@ -12,19 +12,25 @@ Purpose: $3
 3. $6
 
 ## Output format
+
 $7
 
 ## Affected files (optional)
+
 - List components/files needing changes
 
 ## Root cause (optional)
+
 - Specific UI issues identified
 
 ## Proposed fix (optional)
+
 - Concrete implementation changes
 
 ## Test cases (optional)
+
 - Validation criteria for fixes
 
 ## Open questions (optional)
+
 - Unclear requirements or edge cases

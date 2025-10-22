@@ -9,6 +9,7 @@
 # CI/Test Checklist Template
 
 ## Analysis
+
 - [ ] Affected files
 - [ ] Root cause
 - [ ] Proposed fix
@@ -17,19 +18,23 @@
 - [ ] Open questions
 
 ## How-to Steps
+
 1. Compute ready tasks (see $3) and collect testStrategy fields.
 2. Group by $4; otherwise by path keywords in titles.
 3. Propose CI jobs and test commands with approximate runtimes and gating rules ($5).
 4. Include a smoke-test matrix ($6) and minimal code coverage targets if relevant.
 
 Output format:
+
 - "# CI Plan"
 - Tables: jobs ($5) and tests ($6)
 - "## Risk Areas" ($7)
 
 Examples:
+
 - Input: $1
 - Output: one CI plan with 3–8 jobs and a test table.
 
 Notes:
+
 - Non-binding guidance. Adapt to the repo’s actual CI system.

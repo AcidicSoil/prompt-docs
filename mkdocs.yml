@@ -188,7 +188,10 @@ nav:
           - Instruction file: temp-prompts-organized/_templates/instruction-file.templates.md
           - Prompt sequence generator: temp-prompts-organized/_templates/prompt-sequence-generator.templates.md
           - System-level instruction editor: temp-prompts-organized/_templates/system-level-instruction-editor.templates.md
-
+      - _experimental:
+          - temp-prompts-organized/_experimental/ops_apply.experimental.md
+          - temp-prompts-organized/_experimental/ops_quality.experimental.md
+          - temp-prompts-organized/_experimental/QA-ready_refactor-plan.experimental.md
       - Codefetch:
           - Codebase: temp-prompts-organized/codebase.md
 
