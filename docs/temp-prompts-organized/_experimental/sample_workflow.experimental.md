@@ -14,13 +14,16 @@ Delivers --> <gpt5-reviewed-gemini-refact>.md
 
 ### Users Query to gpt-5
 
+```md
 "Does the prd.md and tasks.json reflect the <gpt5-reviewed-gemini-ui-refact>.md and honor its requests?"
+```
 
 #### OPTIONAL (Highly Recommended)
 
-* curated prompt templates specific to scope of user
-  * general gpt-5 response and Q&A
-Outputs --> discrepancies surfaced from tasks.json
+!!! tip "Better output on iterations"
+    - curated prompt templates specific to scope of user
+    - general gpt-5 response and Q&A
+    - Outputs --> discrepancies surfaced from tasks.json
 
 #### Rinse & Repeat w/ Complexity Report
 
@@ -28,7 +31,13 @@ Outputs --> discrepancies surfaced from tasks.json
 
 ### If template method
 
-* Give prompt template to GPT-5 and query "instructions on it's usage for user?" Take the output and add to the template file.
+* Give prompt template to GPT-5 and take the output and add to the template file.
+
+Query
+
+```md
+"instructions on it's usage for user?"
+```
 
 * Drag copy of the template into codebase
 Provide gemini your session id and edit the settings.json to allow as a working directory (location of the session)
@@ -115,3 +124,13 @@ Provide gemini your session id and edit the settings.json to allow as a working 
 /ops:quality "plan-123:7" "pnpm test --filter '@app/*'" "local" "." ".ops/quality" "1800" "2" "1" "inherit"
 
 ```
+
+!!! tip "Run these next"
+    - QA-ready_refactor-plan
+    - ops_apply
+    - ops_quality
+
+=== "What's next"
+    - Need to refactor? Run first [QA-ready_refactor-plan](QA-ready_refactor-plan.experimental.md)
+    - Then, Run second [ops_apply](ops_apply.experimental.md)
+    - If needed, run [ops_quality](ops_quality.experimental.md)

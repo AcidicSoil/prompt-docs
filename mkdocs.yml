@@ -189,12 +189,10 @@ nav:
           - Prompt sequence generator: temp-prompts-organized/_templates/prompt-sequence-generator.templates.md
           - System-level instruction editor: temp-prompts-organized/_templates/system-level-instruction-editor.templates.md
       - _experimental:
+          - temp-prompts-organized/_experimental/sample_workflow.experimental.md
           - temp-prompts-organized/_experimental/ops_apply.experimental.md
           - temp-prompts-organized/_experimental/ops_quality.experimental.md
           - temp-prompts-organized/_experimental/QA-ready_refactor-plan.experimental.md
-      - Codefetch:
-          - Codebase: temp-prompts-organized/codebase.md
-
 
   - Temp Prompts (refactored):
       - 3-step process (pre-refactor): temp-prompts-refactored/3-step-process-b4-refactoring.md

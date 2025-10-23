@@ -14,11 +14,13 @@ Use the sidebar to explore, or jump straight into a workflow below.
 ## Quick start
 
 !!! tip "New Workflow!"
+    - Sample workflow
     - QA-ready_refactor-plan
     - ops_apply
     - ops_quality
 
 === "Try these out first"
+    - Follow for successful prompting [Sample workflow](temp-prompts-organized/_experimental/sample_workflow.experimental.md)
     - Need to refactor? Run first [QA-ready_refactor-plan](temp-prompts-organized/_experimental/QA-ready_refactor-plan.experimental.md)
     - Then, Run second [ops_apply](temp-prompts-organized/_experimental/ops_apply.experimental.md)
     - If needed, run [ops_quality](temp-prompts-organized/_experimental/ops_quality.experimental.md)
