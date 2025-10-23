@@ -1,0 +1,76 @@
+# path: .github/workflows/mkdocs-nightly.yml
+name: MkDocs Nightly (changes-only)
+
+on:
+  # Run once daily at 10:00 America/Chicago (Central) during DST (15:00 UTC).
+  # GitHub cron is UTC-only, so list both hours to cover DST changeover.
+  schedule:
+    - cron: "0 0 * * *"   # 7:00 PM CDT
+    - cron: "0 1 * * *"   # 7:00 PM CST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  maybe-build:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.detect.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Detect docs changes in the last 24h (covers off-by-one cron delays).
+      - id: detect
+        name: Detect changes in docs/mkdocs.yml
+        run: |
+          if git log --since="24 hours" --pretty=oneline -- docs mkdocs.yml | grep .; then
+            echo "changed=true"  >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  build:
+    needs: maybe-build
+    if: needs.maybe-build.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install MkDocs + theme
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs mkdocs-material   # add your plugins here
+
+      - name: Build site
+        run: mkdocs build --strict  # outputs to ./site
+        # MkDocs' deploy command pushes gh-pages directly, but with Actions
+        # we upload the built site as a Pages artifact instead. :contentReference[oaicite:0]{index=0}
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+        # Official Pages artifact action. :contentReference[oaicite:1]{index=1}
+
+  deploy:
+    needs: build
+    if: needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4  # Official deploy action. :contentReference[oaicite:2]{index=2}
