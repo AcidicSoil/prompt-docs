@@ -193,6 +193,7 @@ nav:
           - temp-prompts-organized/_experimental/ops_apply.experimental.md
           - temp-prompts-organized/_experimental/ops_quality.experimental.md
           - temp-prompts-organized/_experimental/QA-ready_refactor-plan.experimental.md
+          - temp-prompts-organized/_experimental/UniversalStarterPreOpsPromptTemplate.experimental.md
 
   - Temp Prompts (refactored):
       - 3-step process (pre-refactor): temp-prompts-refactored/3-step-process-b4-refactoring.md
@@ -300,4 +301,3 @@ nav:
       - Version control guide: temp-prompts-refactored/version-control-guide.md
       - Version proposal: temp-prompts-refactored/version-proposal.md
       - Voice input: temp-prompts-refactored/voice-input.md
-

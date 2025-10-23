@@ -18,12 +18,14 @@ Use the sidebar to explore, or jump straight into a workflow below.
     - QA-ready_refactor-plan
     - ops_apply
     - ops_quality
+    - UniversalStarterPreOpsPromptTemplate
 
 === "Try these out first"
     - Follow for successful prompting [Sample workflow](temp-prompts-organized/_experimental/sample_workflow.experimental.md)
     - Need to refactor? Run first [QA-ready_refactor-plan](temp-prompts-organized/_experimental/QA-ready_refactor-plan.experimental.md)
     - Then, Run second [ops_apply](temp-prompts-organized/_experimental/ops_apply.experimental.md)
     - If needed, run [ops_quality](temp-prompts-organized/_experimental/ops_quality.experimental.md)
+    - Universal Starter PreOps Prompt Template: [Universal Starter PreOps Prompt Template](temp-prompts-organized/_experimental/UniversalStarterPreOpsPromptTemplate.experimental.md)
 
 !!! tip "First time here?"
     - Skim the **3 lanes** below (Plan / Build / Ship).
