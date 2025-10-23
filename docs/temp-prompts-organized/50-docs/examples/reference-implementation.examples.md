@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P2 App Scaffold & Contracts"
 gate: "Test Gate lite"
@@ -26,3 +27,4 @@ Purpose: Mimic the style and API of a known working example.
 
 - Side-by-side API table and patch suggestions.
 
+```

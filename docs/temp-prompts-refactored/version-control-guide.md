@@ -1,3 +1,4 @@
+```md
 # Version Control Guide
 
 Trigger: $1
@@ -19,3 +20,4 @@ $4
 ## Notes
 
 $5
+```

@@ -1,3 +1,4 @@
+```md
 # Error Analysis
 
 Trigger: $1
@@ -18,3 +19,4 @@ Purpose: $2
 ## Examples
 
 - $11
+```

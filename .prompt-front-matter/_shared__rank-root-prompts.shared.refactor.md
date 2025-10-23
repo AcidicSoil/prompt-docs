@@ -95,7 +95,8 @@
 
 ## Output format examples
 
-* **Preferred**: 
+- **Preferred**:
+
 ```
 | filename | description | match_score |
 |----------|-------------|-------------|
@@ -103,6 +104,9 @@
 | refactor-suggestions.md | Suggests code refactoring for performance issues. | 0.85 |
 ```
 
-* **Fallback**:
-" No prompt exceeds threshold 0.7 — recommend creating a new prompt."
+- **Fallback**:
+  " No prompt exceeds threshold 0.7 — recommend creating a new prompt."
+
+```
+
 ```

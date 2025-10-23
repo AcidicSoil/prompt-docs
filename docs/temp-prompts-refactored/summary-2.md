@@ -1,3 +1,4 @@
+```md
 <!-- $1 = task description (e.g., "summarize the project") -->
 <!-- $2 = CLI command (e.g., "git ls-tree") -->
 <!-- $3 = file paths to inspect (e.g., "docs/README.md") -->
@@ -44,3 +45,4 @@ A structured report following the **Output** section above, optimized for README
 ## Output format (strict)
 
 Provide sections exactly in this order: Project Summary → Repo Snapshot → Evidence Log → Priorities & Next Steps. Keep each section concise and actionable.
+```

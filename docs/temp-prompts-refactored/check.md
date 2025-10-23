@@ -1,3 +1,4 @@
+```md
 **Editorconfig Adherence Check**
 
 <!-- $1 = task description (e.g., "Check adherence to .editorconfig across the repo") -->
@@ -19,3 +20,4 @@ Common pitfalls to watch for:
 - Missing `.editorconfig` files in the repo
 - Inconsistent indentation settings across files
 - Ignoring OS-specific config overrides
+```

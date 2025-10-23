@@ -1,3 +1,4 @@
+```md
 <!-- $1=Search term (e.g., "HttpClient"), $2=Example input, $3=Expected output format -->
 **CLI Search Guide**
 
@@ -17,3 +18,4 @@ $2
 
 Expected Output:
 $3
+```

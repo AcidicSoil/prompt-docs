@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P8 Post-release Hardening"
 gate: "Post-release cleanup"
@@ -33,3 +34,4 @@ Expected Output:
 
 - Structured report following the specified sections.
 
+```

@@ -1,3 +1,4 @@
+```md
 <!-- $1=command, $2=purpose, $3=tasks file path pattern, $4=latest plan doc pattern, $5=artifacts directory, $6=date format string, $7=mode selection rules -->
 
 **How-to: $2**
@@ -56,3 +57,4 @@ Steps:
 - What evidence is missing to resolve inputs?
 - How to handle partial scope changes (<20%)?
 - Should deprecated tasks be automatically archived?
+```

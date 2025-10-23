@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P4 Frontend UX"
 gate: "Accessibility checks queued"
@@ -26,3 +27,4 @@ Purpose: Analyze screenshots for UI bugs or inspiration and propose actionable U
 
 - Issue list and code snippets to fix visuals.
 
+```

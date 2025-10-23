@@ -3,13 +3,13 @@
 ## Metadata
 
 - **identifier**: monitoring-setup
-- **categories**: 
+- **categories**:
   - observability
   - infrastructure
   - setup
 - **lifecycle_stage**: setup
 - **dependencies**: []
-- **provided_artifacts**: 
+- **provided_artifacts**:
   - instrumentation checklist
   - dashboard links/paths
 - **summary**: Do instrument web and api for request latency, error rate, throughput, and core domain metrics to achieve observability per domain.
@@ -40,38 +40,38 @@
 
 ## Algorithm
 
-1. Extract signals from $1  
-   * Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
+1. Extract signals from $1
+   - Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
 
-2. Determine the primary identifier  
-   * Prefer explicit input; otherwise infer from main action + object.  
-   * Normalize (lowercase, kebab-case, length-capped, starts with a letter).  
-   * De-duplicate.
+2. Determine the primary identifier
+   - Prefer explicit input; otherwise infer from main action + object.
+   - Normalize (lowercase, kebab-case, length-capped, starts with a letter).
+   - De-duplicate.
 
-3. Determine categories  
-   * Prefer explicit input; otherwise infer from verbs/headings vs $5.  
-   * Validate, sort deterministically, and de-dupe (≤3).
+3. Determine categories
+   - Prefer explicit input; otherwise infer from verbs/headings vs $5.
+   - Validate, sort deterministically, and de-dupe (≤3).
 
-4. Determine lifecycle/stage (optional)  
-   * Prefer explicit input; otherwise map categories via $6.  
-   * Omit if uncertain.
+4. Determine lifecycle/stage (optional)
+   - Prefer explicit input; otherwise map categories via $6.
+   - Omit if uncertain.
 
-5. Determine dependencies (optional)  
-   * Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
+5. Determine dependencies (optional)
+   - Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
 
-6. Determine provided artifacts (optional)  
-   * Short list (≤3) of unlocked outputs.
+6. Determine provided artifacts (optional)
+   - Short list (≤3) of unlocked outputs.
 
-7. Compose summary  
-   * One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
+7. Compose summary
+   - One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
 
-8. Produce metadata in the requested format  
-   * Default to a human-readable serialization; honor any requested alternative.
+8. Produce metadata in the requested format
+   - Default to a human-readable serialization; honor any requested alternative.
 
-9. Reconcile if input already contains metadata  
-   * Merge: explicit inputs > existing > inferred.  
-   * Validate lists; move unknowns to an extension field if needed.  
-   * Remove empty keys.
+9. Reconcile if input already contains metadata
+   - Merge: explicit inputs > existing > inferred.
+   - Validate lists; move unknowns to an extension field if needed.
+   - Remove empty keys.
 
 ## Assumptions & Constraints
 

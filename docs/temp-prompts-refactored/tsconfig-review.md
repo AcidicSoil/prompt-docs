@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 $1 = Title (e.g., "Review tsconfig for correctness and DX")
 $2 = Summary (e.g., "You are a CLI assistant focused on helping contributors with the task...")
@@ -33,3 +34,4 @@ You are a CLI assistant focused on helping contributors with the task: $1
 - [ ] Tests
 - [ ] Docs gaps
 - [ ] Open questions
+```

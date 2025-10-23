@@ -1,3 +1,4 @@
+```md
 # Dead Code Scan Template
 
 <!-- $1 = command string (e.g., `rg -n "export |module.exports|...`) -->
@@ -20,3 +21,4 @@ Output:
 
 - Begin with a concise summary that restates the goal: $2.
 - Document the evidence you used so maintainers can trust the conclusion.
+```

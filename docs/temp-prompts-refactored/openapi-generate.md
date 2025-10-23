@@ -1,3 +1,4 @@
+```md
 # OpenAPI Generate
 
 Trigger: $1
@@ -31,3 +32,4 @@ Purpose: $2
 ## Docs gaps
 
 ## Open questions
+```

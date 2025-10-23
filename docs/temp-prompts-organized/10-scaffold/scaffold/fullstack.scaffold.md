@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P2 App Scaffold & Contracts"
 gate: "Test Gate lite"
@@ -53,3 +54,4 @@ Purpose: Create a minimal, production-ready monorepo template with app, API, tes
 - Assume pnpm and Node 20+. Do not run package installs automatically; propose commands instead.
 - Respect existing files; avoid overwriting without explicit confirmation.
 
+```

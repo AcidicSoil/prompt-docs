@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P0 Preflight Docs"
 gate: "DocFetchReport"
@@ -26,3 +27,4 @@ Purpose: Generate or update `cursor.rules`, `windsurf.rules`, or `claude.md` wit
 
 - Markdown instruction file with stable headings.
 
+```

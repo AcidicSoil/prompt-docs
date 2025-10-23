@@ -1,3 +1,4 @@
+```md
 # Draft CHANGELOG From Commits
 
 Trigger: /changelog-from-commits
@@ -38,3 +39,4 @@ Notes:
 
 - This is a draft; run `/update-changelog` to finalize and create links.
 - Keep bullets user-facing; avoid internal refactor noise.
+```

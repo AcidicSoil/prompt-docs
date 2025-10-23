@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P1 Plan & Scope"
 gate: "Scope Gate"
@@ -34,3 +35,4 @@ Output: Move to **Ideas for later** with reason "Not needed for OAuth MVP".
 
 - Never add new scope without recording tradeoffs.
 
+```

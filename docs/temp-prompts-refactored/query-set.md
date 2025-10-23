@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 $1 = Goal statement
 $2 = Number of queries (4-8)
@@ -34,3 +35,4 @@ Examples:
 
 Notes:
 - No evidence logging here. Use /research-item to execute.
+```

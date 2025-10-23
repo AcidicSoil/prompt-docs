@@ -1,3 +1,4 @@
+```md
 # TaskMaster Overview
 
 Trigger: $1
@@ -28,3 +29,4 @@ $3 = Output format specification
 $4 = Example input format
 $5 = Expected output structure
 $6 = Critical path details (optional) -->
+```

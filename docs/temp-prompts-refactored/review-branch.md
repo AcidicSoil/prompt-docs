@@ -1,3 +1,4 @@
+```md
 /*
 
 Placeholder mapping:
@@ -44,3 +45,4 @@ $7 = Example input (if applicable)
 ---
 
 *Note: Placeholders marked with `$1..$7` are to be filled with context-specific content from the input.*
+```

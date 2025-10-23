@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P9 Model Tactics"
 gate: "Model uplift"
@@ -26,3 +27,4 @@ Purpose: Choose model per task type.
 
 - Routing guide with examples.
 
+```

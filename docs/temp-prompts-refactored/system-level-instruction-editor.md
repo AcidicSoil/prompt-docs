@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 $1 = Title (System-level instruction)
 $2 = Purpose
@@ -53,3 +54,4 @@ Purpose: $2
 ## Example rows
 
 - "<example symptom or error>" → $6 → $7 → $1 → $2
+```

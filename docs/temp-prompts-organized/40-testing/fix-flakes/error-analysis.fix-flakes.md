@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P8 Post-release Hardening"
 gate: "Post-release cleanup"
@@ -31,3 +32,4 @@ Purpose: Analyze error logs and enumerate likely root causes with fixes.
 
 - "TypeError: x is not a function" → wrong import, circular dep, stale build.
 
+```

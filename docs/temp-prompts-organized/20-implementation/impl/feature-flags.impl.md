@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P8 Post-release Hardening"
 gate: "Post-release cleanup"
@@ -27,3 +28,4 @@ Purpose: Integrate a flag provider, wire the SDK, and enforce guardrails.
 
 **Notes:** Ensure flags are typed and expire with tickets.
 
+```

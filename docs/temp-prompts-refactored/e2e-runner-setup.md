@@ -1,3 +1,4 @@
+```md
 /*
 Placeholder mapping:
 $1 = Trigger
@@ -37,3 +38,4 @@ $8
 **Notes**:
 
 $10
+```

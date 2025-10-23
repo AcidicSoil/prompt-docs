@@ -1,3 +1,4 @@
+```md
 # $1
 
 $2
@@ -25,3 +26,4 @@ $7
 - Version: $8
 - Author: $9
 - Last Updated: $10
+```

@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P5 Quality Gates & Tests"
 gate: "Test Gate"
@@ -28,3 +29,4 @@ Purpose: Configure an end-to-end test runner with fixtures and a data sandbox.
 
 **Notes:** Keep runs under 10 minutes locally; parallelize spec files.
 
+```

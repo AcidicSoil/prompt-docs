@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P5 Quality Gates & Tests"
 gate: "Test Gate"
@@ -29,3 +30,4 @@ Purpose: Detect unrelated changes and add tests to prevent regressions.
 
 - Keep proposed tests minimal and focused.
 
+```

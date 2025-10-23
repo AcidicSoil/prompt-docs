@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 $1 = git blame command with arguments
 $2 = example input file path
@@ -23,3 +24,4 @@ $3
 
 Proposed Fix Examples:
 $4
+```

@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P7 Release & Ops"
 gate: "Release Gate"
@@ -27,3 +28,4 @@ Purpose: Define Service Level Objectives, burn alerts, and runbooks.
 
 **Notes:** Tie SLOs to deploy gates and incident severity.
 
+```

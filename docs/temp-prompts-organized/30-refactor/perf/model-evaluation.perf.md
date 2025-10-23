@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P9 Model Tactics"
 gate: "Model uplift"
@@ -25,3 +26,4 @@ Purpose: Try a new model and compare outputs against a baseline.
 
 - Summary table and recommendations to adopt or not.
 
+```

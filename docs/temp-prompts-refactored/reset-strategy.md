@@ -1,3 +1,4 @@
+```md
 # Reset Strategy
 
 Trigger: $1
@@ -33,3 +34,4 @@ $6
 - **Tests**: $11
 - **Docs gaps**: $12
 - **Open questions**: $13
+```

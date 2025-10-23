@@ -1,3 +1,4 @@
+```md
 <!-- $1=trigger command, $2=purpose statement, $3=output format -->
 
 **E2E Test Generation Prompt**
@@ -26,3 +27,4 @@ Purpose: $2
 ## Notes
 
 - Prefer data-test-id attributes. Avoid brittle CSS selectors.
+```

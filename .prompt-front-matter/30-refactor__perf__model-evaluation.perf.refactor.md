@@ -2,13 +2,13 @@
 
 ## Metadata
 
-- identifier: model-evaluation  
-- category: evaluation  
-- stage: analyze  
-- dependencies: []  
-- provided_artifacts: 
-  - summary table  
-  - adoption recommendations  
+- identifier: model-evaluation
+- category: evaluation
+- stage: analyze
+- dependencies: []
+- provided_artifacts:
+  - summary table
+  - adoption recommendations
 - summary: Evaluate models against a baseline to achieve comparative performance insights.
 
 ## Steps

@@ -1,3 +1,4 @@
+```md
 # Fix
 
 Trigger: $1
@@ -26,3 +27,4 @@ $8
 ```
 
 Regression test: $9
+```

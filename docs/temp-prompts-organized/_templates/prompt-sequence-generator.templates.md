@@ -1,3 +1,4 @@
+```md
 # Prompt: Generate Prompt Execution Sequence
 
 **Purpose:** Given a high-level goal and a set of available prompts, generate the logical execution sequence required to accomplish that goal by chaining the prompts together.
@@ -47,3 +48,4 @@
 **Identified Gaps (if any):**
 
 *   [Description of a missing step or prompt needed to complete the workflow.]
+```

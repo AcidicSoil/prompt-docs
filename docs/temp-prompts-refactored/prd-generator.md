@@ -1,3 +1,4 @@
+```md
 <!-- $1=project plan text (visible link text), $2=product name, $3=problem statement, $4=key constraints -->
 **PRD Generator Template**
 
@@ -36,3 +37,4 @@ Output a plain-text file named `prd.txt` containing **only** these sections in t
 - Risks include likelihood and impact
 - No URLs/secrets; exactly one blank line between sections
 - $1 contains **only** visible link text (no external browsing)
+```

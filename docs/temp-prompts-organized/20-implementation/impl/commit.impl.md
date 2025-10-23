@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P6 CI/CD & Env"
 gate: "Review Gate"

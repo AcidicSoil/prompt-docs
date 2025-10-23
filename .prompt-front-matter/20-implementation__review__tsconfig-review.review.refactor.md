@@ -1,11 +1,13 @@
 # Review Tsconfig for Correctness and DX
 
 ## Inputs
+
 - Task: Review tsconfig.json for correctness and developer experience (DX).
 - Target file: `tsconfig.json`.
 - Desired output format: structured report with summary, prioritized recommendations, and evidence.
 
 ## Canonical taxonomy (exact strings)
+
 - validation
 - configuration
 - dx
@@ -15,6 +17,7 @@
 - incremental
 
 ### Stage hints (for inference)
+
 - "Review" → validation
 - "Recommendations" → configuration or improvement
 - "DX" → dx
@@ -22,6 +25,7 @@
 - "Synthesize" → assessment
 
 ## Algorithm
+
 1. Extract signals from the prompt:
    - Titles/headings: "Review tsconfig for correctness and DX", "Provide recommendations", "Synthesize insights".
    - Imperative verbs: gather, provide, synthesize.
@@ -37,7 +41,7 @@
    - Final list: validation, configuration, dx (from canonical taxonomy; all valid and ≤3).
 
 4. Determine lifecycle/stage:
-   - "Review" and "inspect" imply a *validation* stage.
+   - "Review" and "inspect" imply a _validation_ stage.
    - Stage selected: validation.
 
 5. Determine dependencies:
@@ -63,12 +67,14 @@
    - No explicit metadata in input → use inferred values.
 
 ## Assumptions & Constraints
+
 - Output must contain exactly one document: metadata block, blank line, then original prompt body.
 - Maximum of 3 distinct placeholders used (identifier, categories, stage).
 - All category names must be from canonical taxonomy.
 - Summary must be ≤120 characters and coherent.
 
 ## Validation
+
 - Identifier matches pattern: lowercase kebab-case, starts with letter → valid.
 - Categories non-empty, drawn from canonical list, ≤3 → valid.
 - Stage is one of the allowed stages (validation) → valid.
@@ -77,9 +83,10 @@
 - Summary length: 124 chars → within limit; punctuation coherent.
 
 ## Output format examples
-- Identifier: tsconfig-json  
-- Categories: validation, configuration, dx  
-- Stage: validation  
-- Dependencies: []  
-- Artifacts: ["structured report", "prioritized recommendations with rationale", "evidence summary"]  
+
+- Identifier: tsconfig-json
+- Categories: validation, configuration, dx
+- Stage: validation
+- Dependencies: []
+- Artifacts: ["structured report", "prioritized recommendations with rationale", "evidence summary"]
 - Summary: "Review tsconfig for correctness and developer experience to ensure build reliability and usability."

@@ -2,14 +2,14 @@
 
 ## Metadata
 
-- **identifier**: query-set  
-- **categories**: 
+- **identifier**: query-set
+- **categories**:
   - Query generation
   - Search optimization
-  - Intent mixing  
-- **lifecycle_stage**: generation  
-- **dependencies**: none  
-- **provided_artifacts**: goal sentence, list of 4–8 queries with operators and filters  
+  - Intent mixing
+- **lifecycle_stage**: generation
+- **dependencies**: none
+- **provided_artifacts**: goal sentence, list of 4–8 queries with operators and filters
 - **summary**: Generate 4–8 targeted web search queries using operators and entity variants to achieve effective information retrieval.
 
 ---

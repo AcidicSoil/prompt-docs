@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P2 App Scaffold & Contracts"
 gate: "Test Gate lite"
@@ -25,3 +26,4 @@ Purpose: Fetch API docs and store locally for offline, deterministic reference.
 
 - Command list and file paths to place docs under `docs/apis/`.
 
+```

@@ -1,3 +1,4 @@
+```md
 <!-- $1=Template title (e.g., "Stack Evaluation"), $2=Trigger command, $3=Purpose statement, $4=First step description, $5=Second step description, $6=Third step description, $7=Output format description -->
 **$1**
 
@@ -14,3 +15,4 @@ Purpose: $3
 ## Output format
 
 - $7
+```

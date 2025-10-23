@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P4 Frontend UX"
 gate: "Accessibility checks queued"
@@ -25,3 +26,4 @@ Purpose: Generate favicons and small design snippets from product brand.
 
 - Asset checklist and generation commands.
 
+```

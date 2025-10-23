@@ -1,3 +1,4 @@
+```md
 ---
 phase: "Support"
 gate: "Support intake"
@@ -24,3 +25,4 @@ Purpose: Support interaction from voice capture and convert to structured prompt
 
 - Cleaned command list ready to execute.
 
+```

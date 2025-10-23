@@ -1,3 +1,4 @@
+```md
 ---
 phase:
   - "P1 Plan & Scope"
@@ -28,3 +29,4 @@ Purpose: Spin up a standalone prototype in a clean repo before merging into main
 
 - Scaffold plan and migration notes.
 
+```

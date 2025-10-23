@@ -1,3 +1,4 @@
+```md
 <!-- $1 = trigger phrase (e.g., "/roll-up") -->
 <!-- $2 = purpose statement (e.g., "Summarize per-item statuses, enabled decisions, unresolved risks, and count sources by domain type") -->
 <!-- $3 = step 1 description (e.g., "Aggregate Conversation State Updates from prior items") -->
@@ -31,3 +32,4 @@ Examples:
 Notes:
 - Domain Count Analysis: $6 (explain why counts vary across domains)
 - Evidence Log Reference: Use counts derived from the Evidence Logs
+```

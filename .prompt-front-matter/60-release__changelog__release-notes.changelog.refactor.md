@@ -33,30 +33,29 @@
 
 1. Extract signals from the prompt:
    - Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
-   
 2. Determine the primary identifier:
    - Prefer explicit input; otherwise infer from main action + object.
    - Normalize (lowercase, kebab-case, length-capped, starts with a letter).
    - De-duplicate.
-   → Identifier: generate-release-notes-from-commits
+     → Identifier: generate-release-notes-from-commits
 
 3. Determine categories:
    - Prefer explicit input; otherwise infer from verbs/headings vs canonical taxonomy.
    - Validate, sort deterministically, and de-dupe (≤3).
-   → Categories: feat, fix, perf (top three most relevant in changelog)
+     → Categories: feat, fix, perf (top three most relevant in changelog)
 
 4. Determine lifecycle/stage (optional):
    - Prefer explicit input; otherwise map categories via stage hints.
    - Omit if uncertain.
-   → Stage: production (inferred from release context)
+     → Stage: production (inferred from release context)
 
 5. Determine dependencies (optional):
    - Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
-   → Dependencies: git-log, {{args}}
+     → Dependencies: git-log, {{args}}
 
 6. Determine provided artifacts (optional):
    - Short list (≤3) of unlocked outputs.
-   → Artifacts: Highlights section, grouped changelog by type, evidence summary
+     → Artifacts: Highlights section, grouped changelog by type, evidence summary
 
 7. Compose summary:
    - One sentence (≤120 chars): “Generate human-readable release notes from recent commits to achieve transparency in changes.”
@@ -89,9 +88,10 @@
 
 - Input: src/example.ts
 - Expected Output:
+
   ## Features
   - Add SSO login flow (PR #42)
-  
+
   ## Fixes
   - Resolve logout crash (PR #57)
 
@@ -118,6 +118,7 @@ Example Input:
 src/example.ts
 
 Expected Output:
+
 ## Features
 
 - Add SSO login flow (PR #42)

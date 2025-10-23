@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P3 Data & Auth"
 gate: "Migration dry-run"
@@ -29,3 +30,4 @@ Purpose: Pick a database, initialize migrations, local compose, and seed scripts
 
 **Notes:** Avoid destructive defaults; provide `--preview-feature` warnings if relevant.
 
+```

@@ -1,6 +1,7 @@
 # Generate Status Docs
 
 ## Inputs
+
 - Trigger: `/tm-docs`
 - Source: tasks.json
 - Output format: Markdown document for README or STATUS.md
@@ -8,16 +9,19 @@
 - Optional: changelog (if timestamps exist)
 
 ## Canonical taxonomy (exact strings)
+
 - documentation
 - status reporting
 - project tracking
 
 ### Stage hints (for inference)
+
 - Generation → primary stage
 - Composition → sub-stage
 - Output → final delivery
 
 ## Algorithm
+
 1. Extract signals from the prompt:
    - Titles/headings: "Generate Status Docs", "Purpose", "Steps", "Output format"
    - Imperative verbs: "Parse", "Compose", "Produce", "Emit"
@@ -62,6 +66,7 @@
    - No prior metadata present; all fields inferred and validated.
 
 ## Assumptions & Constraints
+
 - Output is exactly one document: metadata block, blank line, then original body.
 - All identifiers are normalized (lowercase, kebab-case).
 - Categories strictly from canonical taxonomy (≤3).
@@ -71,6 +76,7 @@
 - Original content ($1) remains unaltered.
 
 ## Validation
+
 - Identifier: `tm-docs` → matches normalized pattern
 - Categories: non-empty, from taxonomy, ≤3
 - Stage: "generation" → valid per stage hints
@@ -79,12 +85,13 @@
 - Summary: 108 characters; grammatically sound
 
 ## Output format examples
-- Identifier: tm-docs  
-- Categories: documentation, status reporting, project tracking  
-- Stage: generation  
-- Dependencies: tasks.json, /tm-next  
-- Artifacts: STATUS.md, status boards, changelog (if available)  
-- Summary: Generate a project status document from tasks.json to report current focus, progress, and risks.  
+
+- Identifier: tm-docs
+- Categories: documentation, status reporting, project tracking
+- Stage: generation
+- Dependencies: tasks.json, /tm-next
+- Artifacts: STATUS.md, status boards, changelog (if available)
+- Summary: Generate a project status document from tasks.json to report current focus, progress, and risks.
 
 ---
 

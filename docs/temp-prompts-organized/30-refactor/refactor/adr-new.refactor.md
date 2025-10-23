@@ -1,3 +1,4 @@
+```md
 **{$2 or Inferred Name}**
 
 You are a CLI assistant to draft an Architecture Decision Record with pros/cons using the following inputs:
@@ -14,3 +15,4 @@ You are a CLI assistant to draft an Architecture Decision Record with pros/cons 
 **Example Input**: $2
 
 **Expected Output**: Actionable summary aligned with output requirements.
+```

@@ -1,3 +1,4 @@
+```md
 # Inferred Analysis Template
 
 You are a CLI assistant helping contributors with the task: **$1**.
@@ -51,3 +52,4 @@ You are a CLI assistant helping contributors with the task: **$1**.
 * [ ] Open questions are called out clearly
 
 <!-- $1=task, $2=command, $3=docs, $4=primary section, $5=secondary section, $6=tertiary section, $7=quaternary section -->
+```

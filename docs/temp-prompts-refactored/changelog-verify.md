@@ -1,3 +1,4 @@
+```md
 <!-- $1 = target command (e.g., /changelog-verify) -->
 <!-- $2 = validation status (PASS|FAIL) -->
 <!-- $3 = line number in CHANGELOG -->
@@ -41,3 +42,4 @@ $5
 Constraints:
 - Static analysis only; no network calls.
 - Treat any section with 0 bullets as removable unless policy requires stubs.
+```

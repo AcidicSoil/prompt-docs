@@ -25,63 +25,63 @@ Task: Given $1, produce a structured **metadata block** and then emit the origin
 
 ## Canonical taxonomy (exact strings)
 
-- Planning & Scope  
-- App Scaffold & Contracts  
-- Data & Auth  
-- Frontend UX  
-- Quality Gates & Tests  
-- CI/CD & Env  
-- Release & Ops  
-- Post-release Hardening  
-- Model Tactics  
+- Planning & Scope
+- App Scaffold & Contracts
+- Data & Auth
+- Frontend UX
+- Quality Gates & Tests
+- CI/CD & Env
+- Release & Ops
+- Post-release Hardening
+- Model Tactics
 
 ### Stage hints (for inference)
 
-- P0: Preflight Docs → requires DocFetchReport to be "OK"  
-- P1: Plan & Scope → passes Scope Gate  
-- P2: App Scaffold & Contracts → clear Test Gate lite  
-- P3: Data & Auth → migrations must dry-run cleanly  
-- P4: Frontend UX → queue accessibility checks  
-- P5: Quality Gates & Tests → meet the Test Gate  
-- P6: CI/CD & Env → satisfy the Review Gate  
-- P7: Release & Ops → clear the Release Gate  
-- P8: Post-release Hardening → resolve Sev-1 issues  
-- P9: Model Tactics → document uplift before switching defaults  
+- P0: Preflight Docs → requires DocFetchReport to be "OK"
+- P1: Plan & Scope → passes Scope Gate
+- P2: App Scaffold & Contracts → clear Test Gate lite
+- P3: Data & Auth → migrations must dry-run cleanly
+- P4: Frontend UX → queue accessibility checks
+- P5: Quality Gates & Tests → meet the Test Gate
+- P6: CI/CD & Env → satisfy the Review Gate
+- P7: Release & Ops → clear the Release Gate
+- P8: Post-release Hardening → resolve Sev-1 issues
+- P9: Model Tactics → document uplift before switching defaults
 
 ## Algorithm
 
-1. Extract signals from $1  
-   * Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
+1. Extract signals from $1
+   - Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
 
-2. Determine the primary identifier  
-   * Prefer explicit input; otherwise infer from main action + object.  
-   * Normalize (lowercase, kebab-case, length-capped, starts with a letter).  
-   * De-duplicate.  
+2. Determine the primary identifier
+   - Prefer explicit input; otherwise infer from main action + object.
+   - Normalize (lowercase, kebab-case, length-capped, starts with a letter).
+   - De-duplicate.
 
-3. Determine categories  
-   * Prefer explicit input; otherwise infer from verbs/headings vs $5.  
-   * Validate, sort deterministically, and de-dupe (≤3).  
+3. Determine categories
+   - Prefer explicit input; otherwise infer from verbs/headings vs $5.
+   - Validate, sort deterministically, and de-dupe (≤3).
 
-4. Determine lifecycle/stage (optional)  
-   * Prefer explicit input; otherwise map categories via $6.  
-   * Omit if uncertain.
+4. Determine lifecycle/stage (optional)
+   - Prefer explicit input; otherwise map categories via $6.
+   - Omit if uncertain.
 
-5. Determine dependencies (optional)  
-   * Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
+5. Determine dependencies (optional)
+   - Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
 
-6. Determine provided artifacts (optional)  
-   * Short list (≤3) of unlocked outputs.
+6. Determine provided artifacts (optional)
+   - Short list (≤3) of unlocked outputs.
 
-7. Compose summary  
-   * One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
+7. Compose summary
+   - One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
 
-8. Produce metadata in the requested format  
-   * Default to a human-readable serialization; honor any requested alternative.
+8. Produce metadata in the requested format
+   - Default to a human-readable serialization; honor any requested alternative.
 
-9. Reconcile if input already contains metadata  
-   * Merge: explicit inputs > existing > inferred.  
-   * Validate lists; move unknowns to an extension field if needed.  
-   * Remove empty keys.
+9. Reconcile if input already contains metadata
+   - Merge: explicit inputs > existing > inferred.
+   - Validate lists; move unknowns to an extension field if needed.
+   - Remove empty keys.
 
 ## Assumptions & Constraints
 
@@ -123,6 +123,6 @@ provided_artifacts:
   - .mcp/state.json
   - ready task list
   - dependency graph (DOT/JSON)
-summary: "Do staged planning and execution to achieve a consistent, auditable, and automated software development lifecycle."
+summary: 'Do staged planning and execution to achieve a consistent, auditable, and automated software development lifecycle.'
 ---
 ```

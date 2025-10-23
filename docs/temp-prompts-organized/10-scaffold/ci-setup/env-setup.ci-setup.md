@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P6 CI/CD & Env"
 gate: "Review Gate"
@@ -28,3 +29,4 @@ Purpose: Create .env.example, runtime schema validation, and per-env overrides.
 
 **Notes:** Do not include real credentials. Enforce `STRICT_ENV=true` in CI.
 
+```

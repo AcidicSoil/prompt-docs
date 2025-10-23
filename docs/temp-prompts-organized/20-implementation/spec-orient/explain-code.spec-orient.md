@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P7 Release & Ops"
 gate: "Review Gate"
@@ -26,3 +27,4 @@ Purpose: Provide line-by-line explanations for a given file or diff.
 
 - Annotated markdown with code fences and callouts.
 
+```

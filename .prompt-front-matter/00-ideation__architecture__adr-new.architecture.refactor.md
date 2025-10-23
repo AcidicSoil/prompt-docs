@@ -3,22 +3,26 @@
 Task: Given the following prompt, produce a structured **metadata block** and then emit the original body unchanged. The metadata must expose identifiers, categories, optional lifecycle/stage, optional dependencies, optional provided artifacts, and a concise summary. Output = metadata, blank line, then the input text.
 
 ## Inputs
+
 - Input prompt: "You are a CLI assistant focused on helping contributors with the task: Draft an Architecture Decision Record with pros/cons."
 - Workflow steps: Gather context from `README.md`, draft ADR (Context, Decision, Status, Consequences), synthesize insights.
 - Output requirements: Concise summary of goal; workflow triggers/failing jobs/proposed fixes; documented evidence for maintainers' trust.
 
 ## Canonical taxonomy (exact strings)
+
 - architecture
 - decision-making
 - documentation
 
 ### Stage hints (for inference)
+
 - ideation → early drafting, context gathering
 - planning → structured output design
 - implementation → actual code changes
 - review → peer feedback or approval
 
 ## Algorithm
+
 1. Extract signals from input:
    - Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
 2. Determine the primary identifier:
@@ -45,10 +49,12 @@ Task: Given the following prompt, produce a structured **metadata block** and th
    - Remove empty keys.
 
 ## Assumptions & Constraints
+
 - Emit exactly one document: metadata, a single blank line, then the original body.
 - Limit distinct placeholders to ≤7.
 
 ## Validation
+
 - Identifier matches a normalized id pattern (e.g., kebab-case, lowercase).
 - Categories non-empty and drawn from canonical taxonomy (≤3).
 - Stage, if present, is one of the allowed stages implied by stage hints.
@@ -58,6 +64,7 @@ Task: Given the following prompt, produce a structured **metadata block** and th
 - Body text is not altered.
 
 ## Output format examples
+
 - Identifier: `adr-draft`
 - Categories: architecture, decision-making, documentation
 - Lifecycle stage: ideation

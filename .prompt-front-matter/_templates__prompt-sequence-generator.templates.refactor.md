@@ -6,20 +6,22 @@
 
 ### **Inputs**
 
-*   **High-Level Goal:** {{high_level_goal}}
-    *   *A clear, one-sentence description of the final outcome the user wants to achieve.*
-    *   *Example: "Create and document a pull request for the currently staged changes."*
+- **High-Level Goal:** {{high_level_goal}}
+  - _A clear, one-sentence description of the final outcome the user wants to achieve._
+  - _Example: "Create and document a pull request for the currently staged changes."_
 
-*   **Available Prompts:**
-    ```
-    {{available_prompts}}
-    ```
-    *   *A list of candidate prompt names (e.g., from the output of `rank-root-prompts`).*
-    *   *Example: ['pr-desc.md', 'commit-msg.md', 'changed-files.md', 'review.md', 'release-notes.md']*
+- **Available Prompts:**
 
-*   **Context (Optional):** {{context}}
-    *   *Any additional context, such as the current state of the git repository or specific files of interest.*
-    *   *Example: "The user has already staged files using `git add`."*
+  ```
+  {{available_prompts}}
+  ```
+
+  - _A list of candidate prompt names (e.g., from the output of `rank-root-prompts`)._
+  - _Example: ['pr-desc.md', 'commit-msg.md', 'changed-files.md', 'review.md', 'release-notes.md']_
+
+- **Context (Optional):** {{context}}
+  - _Any additional context, such as the current state of the git repository or specific files of interest._
+  - _Example: "The user has already staged files using `git add`."_
 
 ---
 
@@ -28,7 +30,7 @@
 1.  **Analyze the Goal:** Deconstruct the `{{high_level_goal}}` into a series of logical steps required to get from the starting state to the final outcome.
 
 2.  **Map Prompts to Steps:** For each logical step, identify the most suitable prompt from the `{{available_prompts}}` list that can perform that step.
-    *   Consider the inputs and outputs of each prompt to determine dependencies. A prompt's input is often the output of a previous one.
+    - Consider the inputs and outputs of each prompt to determine dependencies. A prompt's input is often the output of a previous one.
 
 3.  **Establish Order:** Arrange the selected prompts into a numbered sequence based on their dependencies. The sequence should represent a complete and logical workflow.
 
@@ -46,4 +48,4 @@
 
 **Identified Gaps (if any):**
 
-*   [Description of a missing step or prompt needed to complete the workflow.]
+- [Description of a missing step or prompt needed to complete the workflow.]

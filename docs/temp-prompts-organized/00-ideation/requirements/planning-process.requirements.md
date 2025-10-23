@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P1 Plan & Scope"
 gate: "Scope Gate"
@@ -45,3 +46,4 @@ Purpose: Draft, refine, and execute a feature plan with strict scope control and
 - Planning only. No code edits.
 - Assume a Git repo with test runner available.
 
+```

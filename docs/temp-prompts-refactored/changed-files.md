@@ -1,3 +1,4 @@
+```md
 <!-- Placeholders:  
 $1 = Task goal statement  
 $2 = Git command  
@@ -24,3 +25,4 @@ Example Input:
 
 Expected Output:
 `$7`
+```

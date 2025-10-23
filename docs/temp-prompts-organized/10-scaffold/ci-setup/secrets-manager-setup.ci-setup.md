@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P6 CI/CD & Env"
 gate: "Review Gate"
@@ -27,3 +28,4 @@ Purpose: Provision a secrets store and map application variables to it.
 
 **Notes:** Never echo secret values. Include rotation policy.
 
+```

@@ -1,3 +1,4 @@
+```md
 # DB Bootstrap
 
 Trigger: $1
@@ -28,3 +29,4 @@ Purpose: $2
 - $15: $7
 - $16: $8
 - $17: .env.example
+```

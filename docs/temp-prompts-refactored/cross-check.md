@@ -1,3 +1,4 @@
+```md
 # Conflict Resolver
 
 Trigger: $1
@@ -24,3 +25,4 @@ Examples:
 Notes:
 
 - $9
+```

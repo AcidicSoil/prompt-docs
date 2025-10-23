@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P5 Quality Gates & Tests"
 gate: "Test Gate"
@@ -47,3 +48,4 @@ src/components/Button.tsx
   - Confirms the `variant="primary"` branch applies the `btn-primary` class.
 - Validation: Run `npm test -- Button.test.tsx` to execute the suite.
 - Evidence: `package.json` (scripts.test uses Jest + RTL), component branches in `src/components/Button.tsx` (disabled guard, variant styling).
+```

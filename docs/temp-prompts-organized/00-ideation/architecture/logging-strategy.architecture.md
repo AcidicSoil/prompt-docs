@@ -1,3 +1,4 @@
+```md
 phase: "P7 Release & Ops"
 gate: "Release Gate"
 status: "logging guardrails ready for canary/production checks; coordinate with P4 Frontend UX for client telemetry."
@@ -28,3 +29,4 @@ Purpose: Add or remove diagnostic logging cleanly with levels and privacy in min
 
 - Diff hunks and a short guideline section.
 
+```

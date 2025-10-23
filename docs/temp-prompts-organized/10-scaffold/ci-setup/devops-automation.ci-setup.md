@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P6 CI/CD & Env"
 gate: "Review Gate"
@@ -27,3 +28,4 @@ Purpose: Configure servers, DNS, SSL, CI/CD at a pragmatic level.
 
 - Infra plan with checkpoints and secrets placeholders.
 
+```

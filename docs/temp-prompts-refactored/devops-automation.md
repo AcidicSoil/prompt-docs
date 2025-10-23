@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping: 
 $1 = Trigger (e.g., "/devops-automation")
 $2 = Purpose (e.g., "Configure servers, DNS, SSL, CI/CD at a pragmatic level")
@@ -44,3 +45,4 @@ $2
 
 ### Open questions
 - $13
+```

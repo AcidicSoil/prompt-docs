@@ -1,3 +1,4 @@
+```md
 <!-- Placeholders: $1=Task type, $2=Model selection criteria, $3=Input suite, $4=Metrics, $5=Recommended model, $6=Rationale, $7=Output format -->
 
 **Switch Model**
@@ -16,3 +17,4 @@ Purpose: Decide when to try a different AI backend and how to compare.
 ## Output format
 
 - Table: task → model → settings → $7.
+```

@@ -1,3 +1,4 @@
+```md
 <!-- $1=trigger command, $2=purpose description, $3=step list, $4=output format, $5=example command, $6=security notes -->
 
 **Env Setup**
@@ -15,3 +16,4 @@ $3
 **Examples:** $5
 
 **Notes:** $6
+```

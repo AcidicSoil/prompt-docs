@@ -1,3 +1,4 @@
+```md
 # PRD → Tasks Delta
 
 Trigger: /tm-delta
@@ -26,3 +27,4 @@ Examples:
 Notes:
 
 - Keep patches minimal and reversible. Flag any destructive changes explicitly.
+```

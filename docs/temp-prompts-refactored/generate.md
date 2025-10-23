@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 - $1 = Trigger command (e.g., "/generate <source-file>")
 - $2 = Purpose statement (e.g., "Generate unit tests for a given source file")
@@ -33,3 +34,4 @@ You are a CLI assistant focused on helping contributors with the task: $2.
 - $9
 - $10
 - $11
+```

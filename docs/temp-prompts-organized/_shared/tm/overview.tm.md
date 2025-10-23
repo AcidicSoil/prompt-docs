@@ -1,3 +1,4 @@
+```md
 # TaskMaster Overview
 
 Trigger: /tm-overview
@@ -29,3 +30,4 @@ Notes:
 
 - Read-only. Assume statuses: pending | in_progress | blocked | done.
 - If tasks.json is missing or invalid, output an "## Errors" section with a concise diagnosis.
+```

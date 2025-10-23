@@ -19,18 +19,18 @@ Task: Given the changelog content, produce a structured metadata block and then 
   - Unreleased → in progress (pre-release)
   - 0.1.0 → stable release
 - Output examples block:
+
   ```markdown
   ## Metadata
-  
+
   - identifier: task-master
   - categories: [Development, Architecture, Documentation]
   - stage: pre-release
   - dependencies: [zod, jest, actions.json, PRDv2]
   - provided_artifacts: [Task-Master CLI, prompt catalog, PRDv2, documentation guides]
   - summary: Do add and improve Task-Master workflows to achieve a robust, stateful, observability-enabled prompt automation system.
-  
   ```
-  
+
 ## Algorithm
 
 1. Extract signals from the changelog:

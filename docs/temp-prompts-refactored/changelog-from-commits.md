@@ -1,3 +1,4 @@
+```md
 <!-- $1=command syntax (e.g., "since=v2.0.0 until=HEAD"), $2=commit range (e.g., "v2.0.0..HEAD"), $3=change type category (e.g., "Added"), $4=change description (e.g., "Import data from XLSX"), $5=PR reference (e.g., "#612") -->
 **Draft CHANGELOG From Commits**
 
@@ -21,3 +22,4 @@ Expected output:
 Notes:
 - This is a draft; run `/update-changelog` to finalize and create links.
 - Keep bullets user-facing; avoid internal refactor noise.
+```

@@ -1,3 +1,4 @@
+```md
 <!-- $1=Task goal statement, $2=Command to run, $3=Grouping criteria, $4=Triage plan description, $5=Summary restatement, $6=Prioritized recommendations, $7=Output subheading structure -->
 
 **CLI Assistant Prompt for TODO Triage**
@@ -12,3 +13,4 @@ Output:
 - Begin with a concise summary that restates the goal: $5.
 - Offer prioritized, actionable recommendations with rationale: $6.
 - Organize details under clear subheadings: $7.
+```

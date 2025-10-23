@@ -3,19 +3,23 @@
 Task: Given a `package.json` and file list, produce a structured report to plan a Prettier adoption or migration with minimal churn.
 
 ## Inputs
+
 - Input files: `package.json`, filtered file list via `git ls-files '*.*' | sed -n '1,400p'`
 - No explicit user input (command runs without arguments)
 
 ## Canonical taxonomy (exact strings)
+
 - adoption
 - migration
 - planning
 
 ### Stage hints (for inference)
+
 - analysis → when gathering context and proposing plans
 - synthesis → when generating structured output
 
 ## Algorithm
+
 1. Extract signals from the prompt:
    - Titles/headings: "Plan a Prettier adoption or migration"
    - Imperative verbs: gather, propose, synthesize, document
@@ -59,11 +63,13 @@ Task: Given a `package.json` and file list, produce a structured report to plan 
    - All lists validated and within constraints.
 
 ## Assumptions & Constraints
+
 - Emit exactly one document: metadata block, blank line, then original body unchanged.
 - Limit distinct placeholders to ≤7.
 - Output format must preserve the original prompt text.
 
 ## Validation
+
 - Identifier matches normalized pattern → ✅
 - Categories non-empty, drawn from canonical taxonomy (≤3) → ✅
 - Stage is in allowed set: "analysis" → ✅
@@ -78,9 +84,10 @@ Revised summary: "Plan a Prettier adoption or migration with minimal churn to ac
 Final summary: "Plan a Prettier adoption or migration with minimal churn to achieve actionable rollout strategies."
 
 ## Output format examples
-- Identifier: prettier-adoption-plan  
-- Categories: [adoption, migration, planning]  
-- Stage: analysis  
-- Dependencies: []  
-- Artifacts: ["structured report", "prioritized recommendations", "evidence of input usage"]  
+
+- Identifier: prettier-adoption-plan
+- Categories: [adoption, migration, planning]
+- Stage: analysis
+- Dependencies: []
+- Artifacts: ["structured report", "prioritized recommendations", "evidence of input usage"]
 - Summary: "Plan a Prettier adoption or migration with minimal churn to achieve actionable rollout strategies."

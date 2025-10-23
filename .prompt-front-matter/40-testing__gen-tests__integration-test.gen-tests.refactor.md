@@ -9,8 +9,6 @@
 - **Provided Artifacts**: test-files, readme-snippet
 - **Summary**: Generate E2E tests that simulate real user flows to achieve robust, maintainable test coverage.
 
-  
-
 # Integration Test
 
 Trigger: /integration-test

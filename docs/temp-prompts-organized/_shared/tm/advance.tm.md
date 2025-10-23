@@ -1,3 +1,4 @@
+```md
 # Advance Task(s)
 
 Trigger: /tm-advance
@@ -25,3 +26,4 @@ Examples:
 Notes:
 
 - Do not mutate tasks.json. Emit proposed changes only.
+```

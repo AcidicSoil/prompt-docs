@@ -2,11 +2,11 @@
 
 ## Metadata
 
-- **Identifier**: feature-flags  
-- **Categories**: Implementation, Configuration, Security  
-- **Stage**: Implementation  
-- **Dependencies**: []  
-- **Provided Artifacts**: SDK snippet, example usage, guardrail checklist  
+- **Identifier**: feature-flags
+- **Categories**: Implementation, Configuration, Security
+- **Stage**: Implementation
+- **Dependencies**: []
+- **Provided Artifacts**: SDK snippet, example usage, guardrail checklist
 - **Summary**: Do integrate feature flags to achieve secure, typed flag management with enforcement and monitoring.
 
 ---

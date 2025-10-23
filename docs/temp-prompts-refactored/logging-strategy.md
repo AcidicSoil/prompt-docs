@@ -1,3 +1,4 @@
+```md
 <!-- $1 = Title (e.g., "Logging Strategy") -->
 <!-- $2 = Trigger path (e.g., "/logging-strategy") -->
 <!-- $3 = Purpose statement (e.g., "Add or remove diagnostic logging cleanly with levels and privacy in mind") -->
@@ -25,3 +26,4 @@ $7
 ## Output format
 
 - Diff hunks and a short guideline section.
+```

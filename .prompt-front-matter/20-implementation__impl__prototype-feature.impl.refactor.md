@@ -6,7 +6,7 @@
 - **categories**: implementation, setup, testing
 - **lifecycle_stage**: development
 - **dependencies**: []
-- **provided_artifacts**: 
+- **provided_artifacts**:
   - scaffold plan
   - migration notes
 - **summary**: Do prototype feature to achieve standalone validation before merging into main.

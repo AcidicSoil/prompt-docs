@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P9 Model Tactics"
 gate: "Model uplift"
@@ -25,3 +26,4 @@ Purpose: Decide when to try a different AI backend and how to compare.
 
 - Table: task → model → settings → win reason.
 
+```

@@ -1,3 +1,4 @@
+```md
 <!-- $1=Title, $2=Trigger command, $3=Purpose description, $4=Step 1, $5=Step 2, $6=Step 3, $7=Output format description -->
 
 **Code Explanation Template**
@@ -19,3 +20,4 @@ Purpose: $3
 ## Output format
 
 $7
+```

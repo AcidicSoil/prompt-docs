@@ -1,3 +1,4 @@
+```md
 # Verify CHANGELOG Completeness
 
 Trigger: /changelog-verify
@@ -40,3 +41,4 @@ Notes:
 
 - Static analysis only; no network calls.
 - Treat any section with 0 bullets as removable unless policy requires stubs.
+```

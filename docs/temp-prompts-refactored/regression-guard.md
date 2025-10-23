@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping: 
 $1 = Title
 $2 = Purpose
@@ -39,3 +40,4 @@ $7
 ### Docs gaps
 
 ### Open questions
+```

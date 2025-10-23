@@ -3,12 +3,12 @@
 ## Metadata
 
 - **Identifier**: system-level-instruction-editor
-- **Categories**: 
+- **Categories**:
   - Instruction Editing
   - System Operations
   - Documentation Workflow
 - **Lifecycle/Stage**: Operational
-- **Dependencies**: 
+- **Dependencies**:
   - logs/artifacts
   - affected services/modules
   - build/version/commit
@@ -38,22 +38,21 @@
 6. Roll out & verify (staged rollout plan, owners, ETA).
 7. Capture follow-ups (refactors, docs, guardrails).
 
-1. **Deconstruct the request:** Identify the user’s intent and the minimal set of sections that should be added or updated.
-2. **Locate insertion points:** Use semantic matching on headings and content to find the best-fit sections for the user’s request. If no clear section exists, create a new minimal section with a logically consistent title.
-3. **Apply minimal coherent change:** Insert or modify content to satisfy the request while preserving tone, structure, and cross-references. Keep unrelated sections unchanged.
-4. **Run invariants:**
+8. **Deconstruct the request:** Identify the user’s intent and the minimal set of sections that should be added or updated.
+9. **Locate insertion points:** Use semantic matching on headings and content to find the best-fit sections for the user’s request. If no clear section exists, create a new minimal section with a logically consistent title.
+10. **Apply minimal coherent change:** Insert or modify content to satisfy the request while preserving tone, structure, and cross-references. Keep unrelated sections unchanged.
+11. **Run invariants:**
+    - The entire file must be present (no placeholders, no truncation).
+    - Markdown structure and formatting must remain valid.
+    - Internal references and links stay accurate.
 
-   - The entire file must be present (no placeholders, no truncation).
-   - Markdown structure and formatting must remain valid.
-   - Internal references and links stay accurate.
-5. **Render in Canvas:**
+12. **Render in Canvas:**
+    - If editing an existing file: open in Canvas and **replace the full contents** with the updated version.
+    - If creating a new file: create it in Canvas and display the **entire file**.
 
-   - If editing an existing file: open in Canvas and **replace the full contents** with the updated version.
-   - If creating a new file: create it in Canvas and display the **entire file**.
-6. **Variants (optional or on request):** Generate `GEMINI.md` and/or `CLAUDE.md` from the updated `AGENTS.md` using only the Platform Substitution Rules. Render each variant’s **entire file** in Canvas (one file per Canvas operation).
-7. **Size-limit fallback:** If a size cap prevents full-file rendering in Canvas, output the **entire file in chat**, then append:
-
-   - “*Note: Full content was output in chat due to a size limit preventing Canvas rendering.*”
+13. **Variants (optional or on request):** Generate `GEMINI.md` and/or `CLAUDE.md` from the updated `AGENTS.md` using only the Platform Substitution Rules. Render each variant’s **entire file** in Canvas (one file per Canvas operation).
+14. **Size-limit fallback:** If a size cap prevents full-file rendering in Canvas, output the **entire file in chat**, then append:
+    - “_Note: Full content was output in chat due to a size limit preventing Canvas rendering._”
 
 ## Output format
 

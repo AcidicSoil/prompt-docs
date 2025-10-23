@@ -1,3 +1,4 @@
+```md
 <!-- $1 = input task IDs (e.g., TM-42, TM-43) -->
 <!-- $2 = task title from tasks.json -->
 <!-- $3 = step-by-step plan description -->
@@ -27,3 +28,4 @@ Output format:
 
 Notes:
 - Do not mutate tasks.json. Emit proposed changes only.
+```

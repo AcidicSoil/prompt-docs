@@ -1,3 +1,4 @@
+```md
 <!-- $1 = trigger phrase (e.g., "/api-contract 'accounts & auth'") -->
 <!-- $2 = domain (e.g., "auth") -->
 <!-- $3 = contract type (e.g., "OpenAPI 3.1", "GraphQL") -->
@@ -34,3 +35,4 @@ Purpose: Author an initial $3 contract from requirements.
 
 **Notes:**
 - Follow $7 style for REST unless specified.
+```

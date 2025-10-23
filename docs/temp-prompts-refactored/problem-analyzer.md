@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 $1 = Affected files
 $2 = Root cause
@@ -32,3 +33,4 @@ $1
   - `$5`: `<items>`
 
 **DON'T CODE YET.**
+```

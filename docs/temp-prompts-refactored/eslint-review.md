@@ -1,3 +1,4 @@
+```md
 /*
 * Placeholders:
 * $1 = task description (e.g., 'Review ESLint config and suggest rule tweaks')
@@ -34,3 +35,4 @@
 
 ### Open questions
 - How to optimize $5 for large projects?
+```

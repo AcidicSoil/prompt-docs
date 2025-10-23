@@ -1,3 +1,4 @@
+```md
 # Refine Task into Subtasks
 
 Trigger: /tm-refine
@@ -25,3 +26,4 @@ Examples:
 Notes:
 
 - Do not assume authority to change files; provide patches the user can apply.
+```

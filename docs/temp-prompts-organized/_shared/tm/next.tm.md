@@ -1,3 +1,4 @@
+```md
 # Next Ready Tasks
 
 Trigger: /tm-next
@@ -25,3 +26,4 @@ Examples:
 Notes:
 
 - Treat missing or null priority as 0. If custom scales exist, describe them in Notes.
+```

@@ -1,3 +1,4 @@
+```md
 <!-- $1=git-range argument, $2=commit log output, $3=change categories (e.g., Features, Fixes), $4=input file path, $5=specific change entry, $6=summary text, $7=evidence description -->
 
 ## How to Generate Release Notes
@@ -24,3 +25,4 @@ Expected Output:
 ## $3
 
 - $5
+```

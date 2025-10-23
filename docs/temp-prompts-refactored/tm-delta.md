@@ -1,3 +1,4 @@
+```md
 # $1 → Tasks Delta
 
 Trigger: $2
@@ -26,3 +27,4 @@ Examples:
 Notes:
 
 - Keep patches minimal and reversible. Flag any destructive changes explicitly.
+```

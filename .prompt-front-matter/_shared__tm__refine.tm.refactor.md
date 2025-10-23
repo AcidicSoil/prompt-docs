@@ -24,38 +24,38 @@ Task: Given a task ID and description, expand it into actionable subtasks with c
 
 ## Algorithm
 
-1. Extract signals from input  
-   * Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.*
+1. Extract signals from input
+   - Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.\*
 
-2. Determine the primary identifier  
-   * Prefer explicit input; otherwise infer from main action + object.*  
-   * Normalize (lowercase, kebab-case, length-capped, starts with a letter).*  
-   * De-duplicate.*
+2. Determine the primary identifier
+   - Prefer explicit input; otherwise infer from main action + object.\*
+   - Normalize (lowercase, kebab-case, length-capped, starts with a letter).\*
+   - De-duplicate.\*
 
-3. Determine categories  
-   * Prefer explicit input; otherwise infer from verbs/headings vs canonical taxonomy.*  
-   * Validate, sort deterministically, and de-dupe (≤3).*
+3. Determine categories
+   - Prefer explicit input; otherwise infer from verbs/headings vs canonical taxonomy.\*
+   - Validate, sort deterministically, and de-dupe (≤3).\*
 
-4. Determine lifecycle/stage (optional)  
-   * Prefer explicit input; otherwise map categories via stage hints.*  
-   * Omit if uncertain.*
+4. Determine lifecycle/stage (optional)
+   - Prefer explicit input; otherwise map categories via stage hints.\*
+   - Omit if uncertain.\*
 
-5. Determine dependencies (optional)  
-   * Parse phrases implying order or prerequisites; keep id-shaped items (≤5).*  
+5. Determine dependencies (optional)
+   - Parse phrases implying order or prerequisites; keep id-shaped items (≤5).\*
 
-6. Determine provided artifacts (optional)  
-   * Short list (≤3) of unlocked outputs.*
+6. Determine provided artifacts (optional)
+   - Short list (≤3) of unlocked outputs.\*
 
-7. Compose summary  
-   * One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”*
+7. Compose summary
+   - One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”\*
 
-8. Produce metadata in the requested format  
-   * Default to a human-readable serialization; honor any requested alternative.*
+8. Produce metadata in the requested format
+   - Default to a human-readable serialization; honor any requested alternative.\*
 
-9. Reconcile if input already contains metadata  
-   * Merge: explicit inputs > existing > inferred.*  
-   * Validate lists; move unknowns to an extension field if needed.*  
-   * Remove empty keys.*
+9. Reconcile if input already contains metadata
+   - Merge: explicit inputs > existing > inferred.\*
+   - Validate lists; move unknowns to an extension field if needed.\*
+   - Remove empty keys.\*
 
 ## Assumptions & Constraints
 
@@ -75,9 +75,9 @@ Task: Given a task ID and description, expand it into actionable subtasks with c
 
 ## Output format examples
 
-- Identifier: `tm-refine-tm-09`  
-- Categories: ["task refinement", "planning", "subtask decomposition"]  
-- Stage: planning  
-- Dependencies: ["tm-refine-tm-08"]  
-- Artifacts: ["Markdown table of subtasks", "JSON Patch array"]  
+- Identifier: `tm-refine-tm-09`
+- Categories: ["task refinement", "planning", "subtask decomposition"]
+- Stage: planning
+- Dependencies: ["tm-refine-tm-08"]
+- Artifacts: ["Markdown table of subtasks", "JSON Patch array"]
 - Summary: "Refine a vague task into actionable subtasks with acceptance criteria and suggest edits."

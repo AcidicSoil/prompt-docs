@@ -1,3 +1,4 @@
+```md
 # Prototype Feature
 
 Trigger: $1
@@ -11,3 +12,4 @@ $3
 ## Output format
 
 - $4
+```

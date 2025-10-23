@@ -1,3 +1,4 @@
+```md
 <!-- $1 = task path (e.g., "/tm-ci") -->
 <!-- $2 = purpose statement -->
 <!-- $3 = ready tasks path (e.g., "/tm-next") -->
@@ -38,3 +39,4 @@ Examples:
 Notes:
 
 - Non-binding guidance. Adapt to the repo’s actual CI system.
+```

@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P7 Release & Ops"
 gate: "Release Gate"
@@ -27,3 +28,4 @@ Purpose: Bootstrap logs, metrics, and traces with dashboards per domain.
 
 **Notes:** Avoid high‑cardinality labels. Sample traces selectively in prod.
 
+```

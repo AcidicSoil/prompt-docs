@@ -1,3 +1,4 @@
+```md
 # Refactor Suggestions
 
 Trigger: $1
@@ -39,3 +40,4 @@ $4
 - $2 = Purpose (e.g., Propose repo-wide refactoring opportunities after tests exist)
 - $3 = Steps (e.g., Map directory structure and large files. \n2. Identify duplication, data clumps, and god objects. \n3. Suggest phased refactors with safety checks and tests.)
 - $4 = Output format (e.g., Ranked list with owners and effort estimates.)
+```

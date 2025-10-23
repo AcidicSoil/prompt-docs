@@ -1,3 +1,4 @@
+```md
 # Generate Status Docs
 
 Trigger: /tm-docs
@@ -24,3 +25,4 @@ Examples:
 Notes:
 
 - Avoid leaking secrets. Do not invent owners; omit unknown fields.
+```

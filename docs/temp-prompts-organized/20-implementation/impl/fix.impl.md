@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P8 Post-release Hardening"
 gate: "Post-release cleanup"
@@ -40,3 +41,4 @@ diff
 
 Regression test: add case for missing user.
 
+```

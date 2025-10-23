@@ -1,3 +1,4 @@
+```md
 # Refactor Analysis
 
 <!-- Placeholder mapping:  
@@ -22,3 +23,4 @@ $7 = Next steps (actionable items for maintainers) -->
 - Document evidence: $3
 
 *Note: $4 is implied by the refactoring goal but can be explicitly stated for clarity*
+```

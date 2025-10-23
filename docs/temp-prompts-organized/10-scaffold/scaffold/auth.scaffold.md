@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P3 Data & Auth"
 gate: "Migration dry-run"
@@ -30,3 +31,4 @@ Purpose: Scaffold auth flows, routes, storage, and a basic threat model.
 
 **Notes:** Never print real secrets. Use placeholders in `.env.example`.
 
+```

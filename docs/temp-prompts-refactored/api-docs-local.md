@@ -1,3 +1,4 @@
+```md
 # API Docs Local
 
 Trigger: $1
@@ -38,3 +39,4 @@ $4
 ### Open questions
 
 - $10
+```

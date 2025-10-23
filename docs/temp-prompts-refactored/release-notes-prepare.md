@@ -1,3 +1,4 @@
+```md
 # Prepare Release Notes From CHANGELOG
 
 Trigger: `/release-notes-prepare`
@@ -27,3 +28,4 @@ ${6}=Added section content
 ${7}=Changed section content
 
 **Note**: This template follows the six-section layout (Added, Changed, Removed, Fixed, Improved, Deprecated). Missing sections like Removed, Fixed, Improved, Deprecated are implied by the context and will be populated with the appropriate content from CHANGELOG.
+```

@@ -1,3 +1,4 @@
+```md
 <!--
 $1=Trigger phrase (e.g., "/secrets-manager-setup <provider>")
 $2=Purpose statement (e.g., "Provision a secrets store and map application variables to it.")
@@ -30,3 +31,4 @@ $3
 **Tests:** (to be filled)
 **Docs gaps:** (to be filled)
 **Open questions:** (to be filled)
+```

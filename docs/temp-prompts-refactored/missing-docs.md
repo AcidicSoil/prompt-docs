@@ -1,3 +1,4 @@
+```md
 /*
   $1 = Original prompt text
   $2 = 'Missing Docs' (inferred genre)
@@ -17,3 +18,4 @@ The following sections are required to complete this analysis:
 - **Docs gaps**: $5
 - **Open questions**: $6
 - **Additional context**: $7
+```

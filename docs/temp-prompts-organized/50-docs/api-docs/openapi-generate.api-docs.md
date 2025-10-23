@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P2 App Scaffold & Contracts"
 gate: "Test Gate lite"
@@ -29,3 +30,4 @@ Purpose: Generate server stubs or typed clients from an OpenAPI spec.
 
 **Notes:** Prefer openapi-typescript + zod for TS clients when possible.
 
+```

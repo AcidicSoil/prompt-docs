@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P5 Quality Gates & Tests"
 gate: "Test Gate"
@@ -34,3 +35,4 @@ Purpose: Generate E2E tests that simulate real user flows.
 
 - Prefer data-test-id attributes. Avoid brittle CSS selectors.
 
+```

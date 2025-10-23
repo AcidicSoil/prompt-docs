@@ -1,3 +1,4 @@
+```md
 # Conversation-Aware Research — Batch WBRO
 
 Trigger: /research-batch
@@ -31,3 +32,4 @@ Examples:
 Notes:
 
 - Keep quotes ≤25 words. Prefer primary docs.
+```

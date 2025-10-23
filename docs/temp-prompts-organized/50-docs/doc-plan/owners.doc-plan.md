@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P7 Release & Ops"
 gate: "Review Gate"
@@ -35,3 +36,4 @@ Expected Output:
 
 - Likely reviewers: @frontend-team (CODEOWNERS), @jane (last 5 commits).
 
+```

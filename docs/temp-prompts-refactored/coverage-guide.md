@@ -1,3 +1,4 @@
+```md
 # Coverage Guide
 
 Trigger: $1
@@ -21,3 +22,4 @@ $5
 
 Expected Output:
 $6
+```

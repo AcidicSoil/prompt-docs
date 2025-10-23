@@ -1,3 +1,4 @@
+```md
 <!-- $1=task ID (e.g., "TM-09"), $2=subtasks table content, $3=JSON patch array -->
 
 **Refine Task into Subtasks**
@@ -26,3 +27,4 @@ Examples:
 
 Constraints:
 - Do not assume authority to change files; provide patches the user can apply.
+```

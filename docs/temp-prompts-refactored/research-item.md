@@ -1,3 +1,4 @@
+```md
 <!-- Placeholders: $1=short title, $2=goal sentence, $3=assumption bullet, $4=first query, $5=second query, $6=third query, $7=fourth query to eighth query (range) -->
 
 **Conversation-Aware Research**
@@ -63,3 +64,4 @@ Examples:
 Notes:
 - Safety: No personal data. Do not fabricate sources.
 - Provenance: Cite reputable sources; record n/a for missing PubDate.
+```

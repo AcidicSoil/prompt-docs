@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 $1 = Trigger
 $2 = Purpose
@@ -47,3 +48,4 @@ Purpose: $2
 
 ### Open questions
 - *Not applicable; this is a template for creating new instructions*
+```

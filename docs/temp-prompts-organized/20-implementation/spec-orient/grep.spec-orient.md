@@ -1,3 +1,4 @@
+```md
 You are a CLI assistant focused on helping contributors with the task: Recursive text search with ripgrep/grep injection.
 
 1. Gather context by running `rg -n {{args}} . || grep -RIn {{args}} .`.
@@ -15,3 +16,4 @@ HttpClient
 Expected Output:
 
 - Usage cluster in src/network/* with note on inconsistent error handling.
+```

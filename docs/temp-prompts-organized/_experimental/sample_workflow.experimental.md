@@ -1,3 +1,4 @@
+```md
 # Workflow Sequence
 
 Users request/idea --> gemini-2.5:pro
@@ -134,3 +135,4 @@ Provide gemini your session id and edit the settings.json to allow as a working 
     - Need to refactor? Run first [QA-ready_refactor-plan](QA-ready_refactor-plan.experimental.md)
     - Then, Run second [ops_apply](ops_apply.experimental.md)
     - If needed, run [ops_quality](ops_quality.experimental.md)
+```

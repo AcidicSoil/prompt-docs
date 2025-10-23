@@ -1,3 +1,4 @@
+```md
 # Conflict Resolver
 
 Trigger: /cross-check
@@ -28,3 +29,4 @@ Examples:
 Notes:
 
 - Always explain why one source prevails.
+```

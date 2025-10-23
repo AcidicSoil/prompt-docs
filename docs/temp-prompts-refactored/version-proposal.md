@@ -1,3 +1,4 @@
+```md
 # Version Proposal
 
 Trigger: $1
@@ -27,3 +28,4 @@ $2 = Purpose (e.g., "Propose the next semantic version based on commit history")
 $3 = Task description (e.g., "Propose next version (major/minor/patch) from commit history")
 $4 = Output summary goal (e.g., "Propose next version (major/minor/patch) from commit history")
 $5 = Example input format (e.g., "(none – command runs without arguments)") -->
+```

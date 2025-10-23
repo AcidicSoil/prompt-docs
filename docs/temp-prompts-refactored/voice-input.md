@@ -1,3 +1,4 @@
+```md
 <!-- $1 = Template title (e.g., "Voice Input") -->
 <!-- $2 = Trigger command (e.g., "/voice-input") -->
 <!-- $3 = Purpose statement (e.g., "Support interaction from voice capture and convert to structured prompts") -->
@@ -20,3 +21,4 @@ Purpose: $3
 
 ## Expected output
 $5
+```

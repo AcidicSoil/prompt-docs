@@ -1,61 +1,67 @@
 # API Contract Design
 
 ## Inputs
+
 - Feature or domain string (e.g., "accounts & auth")
 - Existing documentation and requirements
 - Preference for OpenAPI 3.1 or GraphQL SDL
 
 ## Canonical taxonomy (exact strings)
+
 - design
 - specification
 - contract generation
 
 ### Stage hints (for inference)
+
 - design → initial creation of a contract from inputs
 - specification → detailed schema definition
 - implementation → code generation phase
 
 ## Algorithm
-1. Extract signals from $1  
-   * Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
 
-2. Determine the primary identifier  
-   * Prefer explicit input; otherwise infer from main action + object.  
-   * Normalize (lowercase, kebab-case, length-capped, starts with a letter).  
-   * De-duplicate.
+1. Extract signals from $1
+   - Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
 
-3. Determine categories  
-   * Prefer explicit input; otherwise infer from verbs/headings vs $5.  
-   * Validate, sort deterministically, and de-dupe (≤3).
+2. Determine the primary identifier
+   - Prefer explicit input; otherwise infer from main action + object.
+   - Normalize (lowercase, kebab-case, length-capped, starts with a letter).
+   - De-duplicate.
 
-4. Determine lifecycle/stage (optional)  
-   * Prefer explicit input; otherwise map categories via $6.  
-   * Omit if uncertain.
+3. Determine categories
+   - Prefer explicit input; otherwise infer from verbs/headings vs $5.
+   - Validate, sort deterministically, and de-dupe (≤3).
 
-5. Determine dependencies (optional)  
-   * Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
+4. Determine lifecycle/stage (optional)
+   - Prefer explicit input; otherwise map categories via $6.
+   - Omit if uncertain.
 
-6. Determine provided artifacts (optional)  
-   * Short list (≤3) of unlocked outputs.
+5. Determine dependencies (optional)
+   - Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
 
-7. Compose summary  
-   * One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
+6. Determine provided artifacts (optional)
+   - Short list (≤3) of unlocked outputs.
 
-8. Produce metadata in the requested format  
-   * Default to a human-readable serialization; honor any requested alternative.
+7. Compose summary
+   - One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
 
-9. Reconcile if input already contains metadata  
-   * Merge: explicit inputs > existing > inferred.  
-   * Validate lists; move unknowns to an extension field if needed.  
-   * Remove empty keys.
+8. Produce metadata in the requested format
+   - Default to a human-readable serialization; honor any requested alternative.
+
+9. Reconcile if input already contains metadata
+   - Merge: explicit inputs > existing > inferred.
+   - Validate lists; move unknowns to an extension field if needed.
+   - Remove empty keys.
 
 ## Assumptions & Constraints
+
 - Emit exactly one document: metadata, a single blank line, then $1.
 - Limit distinct placeholders to ≤ 7.
 - All categories must be from the canonical taxonomy.
 - Stage mapping is deterministic and context-aware.
 
 ## Validation
+
 - Identifier matches a normalized id pattern (e.g., api-contract).
 - Categories non-empty and drawn from $5 (≤3).
 - Stage, if present, is one of the allowed stages implied by $6.
@@ -66,11 +72,12 @@
 - Body text $1 is not altered.
 
 ## Output format examples
-- Identifier: `api-contract`  
-- Categories: design, specification, contract generation  
-- Stage: design  
-- Dependencies: feature/domain input, existing documentation  
-- Artifacts: openapi.yaml, schema.graphql, changelog entry  
+
+- Identifier: `api-contract`
+- Categories: design, specification, contract generation
+- Stage: design
+- Dependencies: feature/domain input, existing documentation
+- Artifacts: openapi.yaml, schema.graphql, changelog entry
 - Summary: "Do generate an API contract from requirements to achieve a standardized specification for endpoints."
 
 ---

@@ -3,14 +3,14 @@
 ## Metadata
 
 - **identifier**: version-proposal
-- **categories**: 
+- **categories**:
   - semantic-versioning
   - commit-history-analysis
 - **lifecycle-stage**: proposal
-- **dependencies**: 
+- **dependencies**:
   - git describe --tags --abbrev=0
   - git log --pretty='%s' --no-merges <tag>..HEAD
-- **provided-artifacts**: 
+- **provided-artifacts**:
   - structured-report
   - version-suggestion (major/minor/patch)
   - rationale-for-version-choice
@@ -97,7 +97,6 @@
   - (none – command runs without arguments)
 
 - Expected Output:
-
   - Structured report following the specified sections.
 
 ---

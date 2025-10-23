@@ -13,11 +13,13 @@ Task: Given the following prompt, produce a structured **metadata block** and th
   - Six sections with bullets
 
 ## Canonical taxonomy (exact strings)
+
 - Documentation
 - Automation
 - Release Engineering
 
 ### Stage hints (for inference)
+
 - prepare
 - pre-release
 - build-time
@@ -26,51 +28,53 @@ Task: Given the following prompt, produce a structured **metadata block** and th
 ## Algorithm
 
 1. Extract signals from the prompt:
-   * Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
+   - Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
 
 2. Determine the primary identifier:
-   * Prefer explicit input; otherwise infer from main action + object.
-   * Normalize (lowercase, kebab-case, length-capped, starts with a letter).
-   * De-duplicate.
-   → Identifier: `release-notes-prepare`
+   - Prefer explicit input; otherwise infer from main action + object.
+   - Normalize (lowercase, kebab-case, length-capped, starts with a letter).
+   - De-duplicate.
+     → Identifier: `release-notes-prepare`
 
 3. Determine categories:
-   * Prefer explicit input; otherwise infer from verbs/headings vs canonical taxonomy.
-   * Validate, sort deterministically, and de-dupe (≤3).
-   → Categories: ["release engineering", "automation", "documentation"]
+   - Prefer explicit input; otherwise infer from verbs/headings vs canonical taxonomy.
+   - Validate, sort deterministically, and de-dupe (≤3).
+     → Categories: ["release engineering", "automation", "documentation"]
 
 4. Determine lifecycle/stage (optional):
-   * Prefer explicit input; otherwise map categories via stage hints.
-   * Omit if uncertain.
-   → Stage: pre-release
+   - Prefer explicit input; otherwise map categories via stage hints.
+   - Omit if uncertain.
+     → Stage: pre-release
 
 5. Determine dependencies (optional):
-   * Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
-   → Dependency: `CHANGELOG.md`
+   - Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
+     → Dependency: `CHANGELOG.md`
 
 6. Determine provided artifacts (optional):
-   * Short list (≤3) of unlocked outputs.
-   → Artifacts: ["copy-ready Markdown body for GitHub Releases"]
+   - Short list (≤3) of unlocked outputs.
+     → Artifacts: ["copy-ready Markdown body for GitHub Releases"]
 
 7. Compose summary:
-   * One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
-   → Summary: "Convert latest CHANGELOG into formatted release notes for GitHub Releases."
+   - One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
+     → Summary: "Convert latest CHANGELOG into formatted release notes for GitHub Releases."
 
 8. Produce metadata in the requested format:
-   * Default to a human-readable serialization; honor any requested alternative.
+   - Default to a human-readable serialization; honor any requested alternative.
 
 9. Reconcile if input already contains metadata:
-   * Merge: explicit inputs > existing > inferred.
-   * Validate lists; move unknowns to an extension field if needed.
-   * Remove empty keys.
+   - Merge: explicit inputs > existing > inferred.
+   - Validate lists; move unknowns to an extension field if needed.
+   - Remove empty keys.
 
 ## Assumptions & Constraints
+
 - Emit exactly one document: metadata, a single blank line, then the original prompt.
 - Limit distinct placeholders to ≤ 7.
 - Do not invent content — strictly derive from input.
 - Output body must remain unchanged.
 
 ## Validation
+
 - Identifier matches a normalized id pattern (kebab-case, lowercase).
 - Categories non-empty and drawn from canonical taxonomy (≤3).
 - Stage, if present, is one of the allowed stages implied by stage hints.
@@ -80,9 +84,10 @@ Task: Given the following prompt, produce a structured **metadata block** and th
 - Original body not altered.
 
 ## Output format examples
+
 ```yaml
 identifier: release-notes-prepare
-category: 
+category:
   - release engineering
   - automation
   - documentation

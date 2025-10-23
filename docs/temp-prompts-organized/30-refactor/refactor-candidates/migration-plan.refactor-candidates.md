@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P3 Data & Auth"
 gate: "Migration dry-run"
@@ -27,3 +28,4 @@ Purpose: Produce safe up/down migration steps with checks and rollback notes.
 
 **Notes:** Include online migration strategies for large tables.
 
+```

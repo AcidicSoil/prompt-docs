@@ -2,11 +2,11 @@
 
 ## Metadata
 
-- **identifier**: modular-architecture  
-- **categories**: architecture  
-- **stage**: design  
-- **dependencies**: [module-boundaries-identification]  
-- **provided-artifacts**: [module-graph, dependency-diff, contract-test-plan]  
+- **identifier**: modular-architecture
+- **categories**: architecture
+- **stage**: design
+- **dependencies**: [module-boundaries-identification]
+- **provided-artifacts**: [module-graph, dependency-diff, contract-test-plan]
 - **summary**: Do modularize services to achieve clear boundaries and testable interfaces.
 
 ## Steps

@@ -1,3 +1,4 @@
+```md
 # Next Ready Tasks
 
 Trigger: $1
@@ -37,3 +38,4 @@ $7: Output format description
 $8: Example input format
 $9: Example output format
 $10: Default priority value
+```

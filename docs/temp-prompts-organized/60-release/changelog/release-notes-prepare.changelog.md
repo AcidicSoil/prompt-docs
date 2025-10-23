@@ -1,3 +1,4 @@
+```md
 # Prepare Release Notes From CHANGELOG
 
 Trigger: /release-notes-prepare
@@ -36,3 +37,4 @@ Notes:
 
 - Strictly derived from `CHANGELOG.md`. Do not invent content.
 - If no version is found, fall back to Unreleased with a warning.
+```

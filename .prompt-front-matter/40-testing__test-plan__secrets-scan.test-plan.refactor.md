@@ -1,19 +1,23 @@
 # Secrets Scan Review Plan
 
 ## Inputs
+
 - CLI command: `gitleaks detect --no-banner --redact 2>/dev/null`
 - Input context: scanner output (if available)
 
 ## Canonical taxonomy (exact strings)
+
 - security
 - review
 - remediation
 
 ### Stage hints (for inference)
+
 - analysis → assessment
 - scan → review → action
 
 ## Algorithm
+
 1. Extract signals from the prompt:
    - Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.
 
@@ -58,11 +62,13 @@
    - Remove empty keys.
 
 ## Assumptions & Constraints
+
 - Emit exactly one document: metadata, a single blank line, then the original body unchanged.
 - Limit distinct placeholders to ≤7.
 - All outputs must preserve original structure and content.
 
 ## Validation
+
 - Identifier matches a normalized id pattern. ✅
 - Categories non-empty and drawn from canonical taxonomy (≤3). ✅
 - Stage, if present, is one of the allowed stages implied by stage hints. ✅
@@ -71,12 +77,13 @@
 - Body text is not altered. ✅
 
 ## Output format examples
-- Identifier: secrets-scan  
-- Categories: security, review, remediation  
-- Stage: assessment  
-- Dependencies: gitleaks detect output  
-- Artifacts: prioritized recommendations, structured report, evidence documentation  
-- Summary: Review secret scan output and highlight real leaks to achieve actionable remediation with clear rationale  
+
+- Identifier: secrets-scan
+- Categories: security, review, remediation
+- Stage: assessment
+- Dependencies: gitleaks detect output
+- Artifacts: prioritized recommendations, structured report, evidence documentation
+- Summary: Review secret scan output and highlight real leaks to achieve actionable remediation with clear rationale
 
 ---
 

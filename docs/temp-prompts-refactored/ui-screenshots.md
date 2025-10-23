@@ -1,3 +1,4 @@
+```md
 <!-- $1=Title, $2=Trigger, $3=Purpose, $4=Step 1, $5=Step 2, $6=Step 3, $7=Output format -->
 **UI Screenshots Analysis**
 
@@ -34,3 +35,4 @@ $7
 ## Open questions (optional)
 
 - Unclear requirements or edge cases
+```

@@ -1,3 +1,4 @@
+```md
 # Evidence Logger
 
 Trigger: /evidence-capture
@@ -26,3 +27,4 @@ Examples:
 Notes:
 
 - Mark missing PubDate as n/a. Prefer official documentation.
+```

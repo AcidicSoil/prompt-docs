@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P7 Release & Ops"
 gate: "Release Gate"
@@ -36,3 +37,4 @@ Purpose: Audit repository hygiene and suggest improvements.
 
 - Structured report following the specified sections.
 
+```

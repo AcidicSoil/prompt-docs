@@ -1,3 +1,4 @@
+```md
 # Conversation-Aware Research — Single Item
 
 Trigger: /research-item
@@ -62,3 +63,4 @@ Notes:
 
 - Safety: No personal data. Do not fabricate sources.
 - Provenance: Cite reputable sources; record n/a for missing PubDate.
+```

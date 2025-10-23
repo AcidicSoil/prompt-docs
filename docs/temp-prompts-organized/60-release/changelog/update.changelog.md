@@ -1,3 +1,4 @@
+```md
 # Update CHANGELOG
 
 Trigger: /update-changelog
@@ -58,3 +59,4 @@ Notes:
 - Keep content end-user focused. Avoid internal file names and refactor notes.
 - If no Conventional Commits, infer section from message heuristics.
 - Do not include secrets or internal ticket links.
+```

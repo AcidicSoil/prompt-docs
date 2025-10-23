@@ -1,3 +1,4 @@
+```md
 # Research Roll-up Summary
 
 Trigger: /roll-up
@@ -26,3 +27,4 @@ Examples:
 Notes:
 
 - Use counts derived from the Evidence Logs.
+```

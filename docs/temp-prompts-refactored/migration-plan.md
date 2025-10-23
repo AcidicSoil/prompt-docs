@@ -1,3 +1,4 @@
+```md
 <!-- 
 $1 = trigger phrase (e.g., "/migration-plan")
 $2 = change summary (e.g., "orders add status enum")
@@ -27,3 +28,4 @@ Purpose: Produce safe up/down migration steps with checks and rollback notes.
 **Notes:** $5
 
 **Additional requirements:** $6 and $7 with $8 flag.
+```

@@ -1,3 +1,4 @@
+```md
 # Scaffold Full‑Stack App
 
 Trigger: $1
@@ -47,3 +48,4 @@ Purpose: $2
 - $6 = output title suffix
 - $7 = example input command
 - $8 = alternative example input command -->
+```

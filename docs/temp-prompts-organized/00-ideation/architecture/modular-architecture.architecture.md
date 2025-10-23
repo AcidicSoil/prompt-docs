@@ -1,3 +1,4 @@
+```md
 phase: "P2 App Scaffold & Contracts"
 gate: "Test Gate lite"
 status: "boundaries documented and lint/build scripts still pass; revisit during P4 Frontend UX for UI seams."
@@ -28,3 +29,4 @@ Purpose: Enforce modular boundaries and clear external interfaces.
 
 - Diagram-ready list of modules and edges, plus diffs.
 
+```

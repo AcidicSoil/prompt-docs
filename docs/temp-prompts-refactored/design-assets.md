@@ -1,3 +1,4 @@
+```md
 # Design Assets
 
 Trigger: $1
@@ -13,3 +14,4 @@ Purpose: $2
 ## Output format
 
 - $6
+```

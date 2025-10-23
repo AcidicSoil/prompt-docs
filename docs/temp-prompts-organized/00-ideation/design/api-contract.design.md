@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P2 App Scaffold & Contracts"
 gate: "Test Gate lite"
@@ -35,3 +36,4 @@ Purpose: Author an initial OpenAPI 3.1 or GraphQL SDL contract from requirements
 
 - Follow JSON:API style for REST unless caller specifies otherwise. Include `429` and `5xx` models.
 
+```

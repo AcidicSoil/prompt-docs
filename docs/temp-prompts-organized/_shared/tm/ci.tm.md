@@ -1,3 +1,4 @@
+```md
 # CI/Test Checklist from Tasks
 
 Trigger: /tm-ci
@@ -25,3 +26,4 @@ Examples:
 Notes:
 
 - Non-binding guidance. Adapt to the repo’s actual CI system.
+```

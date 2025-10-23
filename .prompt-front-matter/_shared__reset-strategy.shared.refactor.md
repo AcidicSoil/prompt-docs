@@ -2,12 +2,12 @@
 
 ## Metadata
 
-- **identifier**: reset-strategy  
-- **category**: workflow  
-- **stage**: decision  
-- **dependencies**: []  
-- **provided_artifacts**: ["decision note", "exact commands"]  
-- **summary**: Decide when to hard reset to avoid layered bad diffs.  
+- **identifier**: reset-strategy
+- **category**: workflow
+- **stage**: decision
+- **dependencies**: []
+- **provided_artifacts**: ["decision note", "exact commands"]
+- **summary**: Decide when to hard reset to avoid layered bad diffs.
 
 ---
 

@@ -3,10 +3,12 @@
 Task: Given a TOML configuration for a Gemini CLI command, produce a structured Codex prompt file with metadata and example usage. The output must be ready to run via bash.
 
 ## Inputs
+
 - TOML input containing `description`, `prompt`, and optional `Expected output` or `Usage`
 - Target output format constraints (≤300 words, specific sections)
 
 ## Canonical taxonomy (exact strings)
+
 - migration
 - prompts
 - tooling
@@ -15,11 +17,13 @@ Task: Given a TOML configuration for a Gemini CLI command, produce a structured 
 - validate
 
 ### Stage hints (for inference)
-- "translation" → transform  
-- "generates", "writes", "creates" → build  
-- "validates" → validate  
+
+- "translation" → transform
+- "generates", "writes", "creates" → build
+- "validates" → validate
 
 ## Algorithm
+
 1. Extract signals from TOML:
    - Description and prompt define intent.
    - Expected output defines structure of result.
@@ -60,6 +64,7 @@ Task: Given a TOML configuration for a Gemini CLI command, produce a structured 
    - No existing metadata; all derived from explicit or inferable signals.
 
 ## Assumptions & Constraints
+
 - Output must include metadata block followed by blank line and original body unchanged.
 - All identifiers normalized and within constraints.
 - Categories strictly from canonical taxonomy.
@@ -68,6 +73,7 @@ Task: Given a TOML configuration for a Gemini CLI command, produce a structured 
 - Summary ≤120 characters.
 
 ## Validation
+
 - Identifier: `gemini-map` → valid kebab-case, lowercase.
 - Categories: [migration, prompts, tooling] → all in taxonomy, non-empty, de-duplicated.
 - Stage: transform → valid and implied by translation workflow.
@@ -76,7 +82,8 @@ Task: Given a TOML configuration for a Gemini CLI command, produce a structured 
 - Summary: 108 characters; coherent and punctuated correctly.
 
 ## Output format examples
-```markdown
+
+````markdown
 # Gemini→Codex Mapper
 
 identifier: gemini-map  
@@ -90,21 +97,20 @@ You are a translator that converts a Gemini CLI TOML command into a Codex prompt
 
 Steps:
 
-1) Read TOML with `description` and `prompt`.
-2) Extract the task, inputs, and outputs implied by the TOML.
-3) Write a Codex prompt file ≤ 300 words:
+1. Read TOML with `description` and `prompt`.
+2. Extract the task, inputs, and outputs implied by the TOML.
+3. Write a Codex prompt file ≤ 300 words:
+   - Role line `You are ...`
+   - Numbered steps
+   - Output section
+   - Example input and expected output
+   - `Usage: /<command>` line
+   - YAML-like metadata at top
 
-    - Role line `You are ...`
-    - Numbered steps
-    - Output section
-    - Example input and expected output
-    - `Usage: /<command>` line
-    - YAML-like metadata at top
-
-4) Choose a short, hyphenated filename ≤ 32 chars.
-5) Emit a ready-to-run bash snippet:
-`cat > ~/.codex/prompts/<filename>.md << 'EOF'` … `EOF`.
-6) Do not include destructive commands or secrets.
+4. Choose a short, hyphenated filename ≤ 32 chars.
+5. Emit a ready-to-run bash snippet:
+   `cat > ~/.codex/prompts/<filename>.md << 'EOF'` … `EOF`.
+6. Do not include destructive commands or secrets.
 
 Example input:
 
@@ -117,4 +123,8 @@ A pr-desc.md file with the structure above and a bash cat > block.
 
 Usage: /gemini-map
 ```
+````
+
+```
+
 ```

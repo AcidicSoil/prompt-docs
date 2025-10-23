@@ -1,3 +1,4 @@
+```md
 **Conversation-Aware Research — Batch WBRO**
 
 Trigger: $1
@@ -38,3 +39,4 @@ Notes:
 - $5: Unresolved risks (e.g., "Licensing conflicts")
 - $6: Domain type count (e.g., "3")
 - $7: Domain types (e.g., "gov, org, docs, blog, news") -->
+```

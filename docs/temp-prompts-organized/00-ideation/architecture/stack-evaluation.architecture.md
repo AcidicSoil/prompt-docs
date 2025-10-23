@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P1 Plan & Scope"
 gate: "Scope Gate"
@@ -25,3 +26,4 @@ Purpose: Evaluate language/framework choices relative to AI familiarity and repo
 
 - Decision memo with pros/cons and next steps.
 
+```

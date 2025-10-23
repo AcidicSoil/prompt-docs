@@ -1,3 +1,4 @@
+```md
 name: Gemini→Codex Mapper
 command: /gemini-map
 tags: migration, prompts, tooling
@@ -33,3 +34,4 @@ Expected output:
 A pr-desc.md file with the structure above and a bash cat > block.
 
 Usage: /gemini-map
+```

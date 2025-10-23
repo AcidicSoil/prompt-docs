@@ -1,3 +1,4 @@
+```md
 You are a CLI assistant focused on helping contributors with the task: Draft an Architecture Decision Record with pros/cons.
 
 1. Gather context by inspecting `README.md` for the project context.
@@ -16,3 +17,4 @@ src/example.ts
 Expected Output:
 
 - Actionable summary aligned with the output section.
+```

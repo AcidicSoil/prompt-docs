@@ -1,3 +1,4 @@
+```md
 <!-- 
 $1 = Specific trigger command (e.g., "/cleanup-branches")
 $2 = Purpose statement (e.g., "Recommend which local branches are safe to delete and which to keep")
@@ -24,3 +25,4 @@ Affected files: Local branches
 
 Output format:
 - $7
+```

@@ -1,3 +1,4 @@
+```md
 <!-- Placeholders mapping:
 $1 = Template title (e.g., "SLO Setup")
 $2 = Command trigger (e.g., "/slo-setup")
@@ -23,3 +24,4 @@ $4
 **Examples:** $6
 
 **Notes:** $7
+```

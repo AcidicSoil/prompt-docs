@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P8 Post-release Hardening"
 gate: "Post-release cleanup"
@@ -25,3 +26,4 @@ Purpose: Enforce smaller files and propose safe splits for giant files.
 
 - Refactor plan with patches for file splits.
 
+```

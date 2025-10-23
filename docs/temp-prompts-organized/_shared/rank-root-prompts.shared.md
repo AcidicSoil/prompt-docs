@@ -1,3 +1,4 @@
+```md
 <!--
 $1 = command name/identifier
 $2 = example user question
@@ -56,3 +57,4 @@ Acceptance:
 
 * **Preferred**: a markdown table with columns `filename | description | match_score` sorted by `match_score` (desc) and filtered by `{{threshold}}`.
 * **Fallback**: the exact one-line message when no entries meet `{{threshold}}`.
+```

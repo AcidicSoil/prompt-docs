@@ -1,3 +1,4 @@
+```md
 <!-- $1=Task description, $2=Command to run, $3=License inventory line format (e.g., "MIT (12)"), $4=Risk level (e.g., "low risk"), $5=Remediation note (e.g., "requires legal review") -->
 
 You are a CLI assistant focused on helping contributors with the task: $1.
@@ -19,3 +20,4 @@ Expected Output:
 
 - $3 — $4
 - $3 — $5
+```

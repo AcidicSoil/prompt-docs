@@ -1,3 +1,4 @@
+```md
 /* Placeholder mapping:
 $1 = Trigger
 $2 = Purpose
@@ -27,3 +28,4 @@ $1
 
 ### Notes
 - $3
+```

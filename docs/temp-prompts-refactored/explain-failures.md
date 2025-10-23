@@ -1,3 +1,4 @@
+```md
 <!-- $1=Task description; $2=Root cause analysis; $3=Proposed fixes; $4=Affected files; $5=Test coverage impact; $6=Open questions; $7=Example input context -->
 **Test Failure Analysis Template**
 
@@ -15,3 +16,4 @@
 
 **Example Context**:
 $7
+```

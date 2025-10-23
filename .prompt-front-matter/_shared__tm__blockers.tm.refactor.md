@@ -1,10 +1,12 @@
 # Blocker Diagnosis
 
 ## Inputs
+
 - target_id (string): The unique identifier of the task to diagnose.
 - tasks.json (file): JSON file containing task metadata and dependencies.
 
 ## Canonical taxonomy (exact strings)
+
 - dependency
 - ambiguity
 - environment
@@ -12,10 +14,12 @@
 - external
 
 ### Stage hints (for inference)
+
 - diagnosis → assessment
 - assessment → unblocking proposal
 
 ## Algorithm
+
 1. Extract signals from the content:
    - Titles/headings: "Blocker Diagnosis", "Purpose", "Steps", "Output format"
    - Imperative verbs: "Diagnose", "Enumerate", "Classify", "Propose"
@@ -58,12 +62,14 @@
    - Final output uses only valid, canonical values.
 
 ## Assumptions & Constraints
+
 - Emit exactly one document: metadata block, blank line, then original body unchanged.
 - Limit distinct placeholders to ≤7 (here: 6 used).
 - All categories must be in the canonical list.
 - Stage must map to a known stage via hints.
 
 ## Validation
+
 - Identifier matches kebab-case pattern (e.g., tm-17)
 - Categories non-empty and drawn from canonical taxonomy (≤5)
 - Stage is "assessment" — valid per hint mapping
@@ -72,12 +78,13 @@
 - Summary ≤120 chars; punctuation coherent
 
 ## Output format examples
-- Identifier: tm-17  
-- Categories: dependency, ambiguity, environment, CI, external  
-- Stage: assessment  
-- Dependencies: tasks.json, target_id  
-- Artifacts: blockers table, actions table, findings narrative  
-- Summary: Diagnose why a task is blocked and propose minimal unblocking paths.  
+
+- Identifier: tm-17
+- Categories: dependency, ambiguity, environment, CI, external
+- Stage: assessment
+- Dependencies: tasks.json, target_id
+- Artifacts: blockers table, actions table, findings narrative
+- Summary: Diagnose why a task is blocked and propose minimal unblocking paths.
 
 ---
 

@@ -36,29 +36,29 @@ Task: Given the following specification, produce a structured metadata block and
    - Prefer explicit input; otherwise infer from main action + object.
    - Normalize (lowercase, kebab-case, length-capped, starts with a letter).
    - De-duplicate.
-   → Identifier: explain-code
+     → Identifier: explain-code
 
 3. Determine categories:
    - Prefer explicit input; otherwise infer from verbs/headings vs canonical taxonomy.
    - Validate, sort deterministically, and de-dupe (≤3).
-   → Categories: code explanation, analysis, risk assessment
+     → Categories: code explanation, analysis, risk assessment
 
 4. Determine lifecycle/stage (optional):
    - Prefer explicit input; otherwise map categories via stage hints.
    - Omit if uncertain.
-   → Stage: implementation
+     → Stage: implementation
 
 5. Determine dependencies (optional):
    - Parse phrases implying order or prerequisites; keep id-shaped items (≤5).
-   → Dependencies: none
+     → Dependencies: none
 
 6. Determine provided artifacts (optional):
    - Short list (≤3) of unlocked outputs.
-   → Artifacts: annotated markdown, code fences, callouts
+     → Artifacts: annotated markdown, code fences, callouts
 
 7. Compose summary:
    - One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”
-   → Summary: Explain code files or diffs to achieve detailed insights into purpose, inputs, outputs, and risks.
+     → Summary: Explain code files or diffs to achieve detailed insights into purpose, inputs, outputs, and risks.
 
 8. Produce metadata in the requested format:
    - Default to a human-readable serialization; honor any requested alternative.
@@ -91,9 +91,9 @@ Task: Given the following specification, produce a structured metadata block and
   "stage": "implementation",
   "dependencies": [],
   "provided_artifacts": [
-    "annotated markdown",
-    "code fences",
-    "callouts"
+  "annotated markdown",
+  "code fences",
+  "callouts"
   ],
   "summary": "Explain code files or diffs to achieve detailed insights into purpose, inputs, outputs, and risks"
-}
+  }

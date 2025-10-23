@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P8 Post-release Hardening"
 gate: "Post-release cleanup"
@@ -25,3 +26,4 @@ Purpose: Propose repo-wide refactoring opportunities after tests exist.
 
 - Ranked list with owners and effort estimates.
 
+```

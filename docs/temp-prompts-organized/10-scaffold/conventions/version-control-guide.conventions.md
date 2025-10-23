@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P6 CI/CD & Env"
 gate: "Review Gate"
@@ -34,3 +35,4 @@ Purpose: Enforce clean incremental commits and clean-room re-implementation when
 
 - Never modify remote branches without confirmation.
 
+```

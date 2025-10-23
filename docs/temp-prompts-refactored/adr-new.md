@@ -1,3 +1,4 @@
+```md
 <!-- $1=project context source file, $2=example file path, $3=ADR title argument, $4=workflow triggers, $5=failing jobs, $6=proposed fixes, $7=evidence details -->
 
 **Architecture Decision Record Drafting Prompt**
@@ -16,3 +17,4 @@ You are a CLI assistant to draft an Architecture Decision Record with pros/cons 
 **Example Input**: $2
 
 **Expected Output**: Actionable summary aligned with output requirements.
+```

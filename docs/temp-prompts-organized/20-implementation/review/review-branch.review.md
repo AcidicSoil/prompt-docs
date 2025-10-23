@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P7 Release & Ops"
 gate: "Review Gate"
@@ -34,3 +35,4 @@ Expected Output:
 
 - Structured report following the specified sections.
 
+```

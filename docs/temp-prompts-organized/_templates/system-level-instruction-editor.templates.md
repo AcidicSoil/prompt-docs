@@ -1,3 +1,4 @@
+```md
 phase: "P0 Preflight Docs"
 gate: "Scope Gate"
 status: "draft"
@@ -62,3 +63,4 @@ Purpose: <1–2 lines describing the objective and outcome criteria.>
 ## Example rows
 
 - "<example symptom or error>" → <cause A, cause B> → <check 1, check 2> → <fix sketch> → <owner/ETA>.
+```

@@ -1,3 +1,4 @@
+```md
 <!--
 $1 = Source file path (e.g., /home/user/.codex/prompts/temp-prompts/docs-fulfilled-100.md)
 $2 = User's question
@@ -28,3 +29,4 @@ Tests:
 
 Docs gaps:
 - $7
+```

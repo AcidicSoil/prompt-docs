@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P7 Release & Ops"
 gate: "Release Gate"
@@ -38,3 +39,4 @@ Expected Output:
 
 - Resolve logout crash (PR #57)
 
+```

@@ -85,4 +85,4 @@ Task: Given the following prompt text, produce a structured metadata block and t
   "dependencies": [],
   "provided_artifacts": ["SLO table", "alert rules snippet"],
   "summary": "Define SLOs, alerts, and runbooks to achieve measurable service reliability."
-}
+  }

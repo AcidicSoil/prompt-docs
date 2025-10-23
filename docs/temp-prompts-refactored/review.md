@@ -1,3 +1,4 @@
+```md
 # Review
 
 Trigger: $1
@@ -27,3 +28,4 @@ Expected Output:
 - $2 = search pattern for code context (e.g., `HttpClient`)
 - $3 = example input pattern (e.g., `HttpClient`)
  -->
+```

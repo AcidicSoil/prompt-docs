@@ -1,3 +1,4 @@
+```md
 # Blocker Diagnosis
 
 Trigger: /tm-blockers
@@ -24,3 +25,4 @@ Examples:
 Notes:
 
 - If the task is not actually blocked, state why and redirect to /tm-advance.
+```

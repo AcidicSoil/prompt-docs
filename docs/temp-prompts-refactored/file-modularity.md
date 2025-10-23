@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 $1 = file paths
 $2 = threshold values (e.g., >500 lines)
@@ -50,3 +51,4 @@ Purpose: Enforce smaller files and propose safe splits for giant files.
 
 - How to handle circular dependencies
 - Should we include type definitions in the extraction?
+```

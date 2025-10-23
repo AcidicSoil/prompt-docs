@@ -1,3 +1,4 @@
+```md
 # From Placeholders in prompts.md
 
 Commit title: $1
@@ -22,3 +23,4 @@ Suggested checklist:
 ```
 
 **Note**: Replace $1 with commit title, $2 with summary text.
+```

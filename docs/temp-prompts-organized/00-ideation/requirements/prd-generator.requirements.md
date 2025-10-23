@@ -1,3 +1,4 @@
+```md
 # PRD Generator
 Trigger: /prd-generate
 Purpose: Produce a complete `prd.txt` in the exact section order, headers, and tone of the inline example PRD using only the repository README and visible link texts.
@@ -60,3 +61,4 @@ Output a plain-text file named `prd.txt` containing **only** these sections in t
 - No URLs/secrets; exactly one blank line between sections
 - $1 contains **only** visible link text (no external browsing)
 >>>>>>> Stashed changes
+```

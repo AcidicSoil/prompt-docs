@@ -3,7 +3,7 @@
 ## Metadata
 
 - **Identifier**: research-item
-- **Categories**: 
+- **Categories**:
   - Research Workflow
   - Query Generation
   - Evidence Collection
@@ -44,37 +44,37 @@
 ## Algorithm
 
 1. Extract signals from $1  
-   *Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing.*
+   _Titles/headings, imperative verbs, intent sentences, explicit tags, and dependency phrasing._
 
 2. Determine the primary identifier  
-   *Prefer explicit input; otherwise infer from main action + object.*  
-   *Normalize (lowercase, kebab-case, length-capped, starts with a letter).*  
-   *De-duplicate.*
+   _Prefer explicit input; otherwise infer from main action + object._  
+   _Normalize (lowercase, kebab-case, length-capped, starts with a letter)._  
+   _De-duplicate._
 
 3. Determine categories  
-   *Prefer explicit input; otherwise infer from verbs/headings vs canonical taxonomy.*  
-   *Validate, sort deterministically, and de-dupe (≤3).*
+   _Prefer explicit input; otherwise infer from verbs/headings vs canonical taxonomy._  
+   _Validate, sort deterministically, and de-dupe (≤3)._
 
 4. Determine lifecycle/stage (optional)  
-   *Prefer explicit input; otherwise map categories via stage hints.*  
-   *Omit if uncertain.*
+   _Prefer explicit input; otherwise map categories via stage hints._  
+   _Omit if uncertain._
 
 5. Determine dependencies (optional)  
-   *Parse phrases implying order or prerequisites; keep id-shaped items (≤5).*  
+   _Parse phrases implying order or prerequisites; keep id-shaped items (≤5)._
 
 6. Determine provided artifacts (optional)  
-   *Short list (≤3) of unlocked outputs.*
+   _Short list (≤3) of unlocked outputs._
 
 7. Compose summary  
-   *One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”*
+   _One sentence (≤120 chars): “Do <verb> <object> to achieve <outcome>.”_
 
 8. Produce metadata in the requested format  
-   *Default to a human-readable serialization; honor any requested alternative.*
+   _Default to a human-readable serialization; honor any requested alternative._
 
 9. Reconcile if input already contains metadata  
-   *Merge: explicit inputs > existing > inferred.*  
-   *Validate lists; move unknowns to an extension field if needed.*  
-   *Remove empty keys.*
+   _Merge: explicit inputs > existing > inferred._  
+   _Validate lists; move unknowns to an extension field if needed._  
+   _Remove empty keys._
 
 ## Assumptions & Constraints
 
@@ -133,9 +133,10 @@
 - Entities normalized: {canonical forms}
 ```
 
-- Input: `/research-item Compare OpenAPI 3.1 tooling for Python clients in 2024; budget $0; prefer official docs.`  
+- Input: `/research-item Compare OpenAPI 3.1 tooling for Python clients in 2024; budget $0; prefer official docs.`
 - Output: As per format with SourceIDs and dates.
 
 Notes:
+
 - Safety: No personal data. Do not fabricate sources.
 - Provenance: Cite reputable sources; record n/a for missing PubDate.

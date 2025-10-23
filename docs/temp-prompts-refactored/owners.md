@@ -1,3 +1,4 @@
+```md
 <!-- $1=Path argument, $2=Task goal, $3=Codeowners file path, $4=Git log command, $5=Example path, $6=Output format structure, $7=Owner names -->
 
 **Owners Suggestion Prompt**
@@ -17,3 +18,4 @@ Example input: $5
 
 Expected output:
 - Likely reviewers: $6 ($7)
+```

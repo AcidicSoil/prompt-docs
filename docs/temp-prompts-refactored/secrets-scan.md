@@ -1,3 +1,4 @@
+```md
 <!-- 
 $1 = Core task description (e.g., "Review secret scan output and highlight real leaks")
 $2 = Command to run (e.g., "gitleaks detect --no-banner --redact 2>/dev/null")
@@ -30,3 +31,4 @@ Proposed fix:
 Tests: 
 Docs gaps: 
 Open questions:
+```

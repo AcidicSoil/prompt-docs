@@ -1,3 +1,4 @@
+```md
 ---
 phase: "11) Evidence Log"
 gate: "Evidence Log"
@@ -25,3 +26,4 @@ Purpose: Draft docs, blog posts, or marketing copy aligned with the codebase.
 
 - Markdown files with frontmatter and section headings.
 
+```

@@ -1,3 +1,4 @@
+```md
 ---
 phase: "Reset Playbook"
 gate: "Clean restart"
@@ -33,3 +34,4 @@ Purpose: Decide when to hard reset and start clean to avoid layered bad diffs.
 
 - Warn about destructive nature. Require user confirmation.
 
+```

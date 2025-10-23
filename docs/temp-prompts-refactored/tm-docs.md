@@ -1,3 +1,4 @@
+```md
 <!-- Placeholder mapping:
 - $1 = Trigger
 - $2 = Purpose
@@ -53,3 +54,4 @@ Notes:
 
 **Open questions**
 - [ ] Unresolved issues: [list]
+```

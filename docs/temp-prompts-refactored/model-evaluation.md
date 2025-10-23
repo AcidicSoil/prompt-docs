@@ -1,3 +1,4 @@
+```md
 /*
 Placeholder mapping:
 $1 = Trigger phrase
@@ -31,3 +32,4 @@ $6
 - Expected metrics
 - Failure analysis
 - Adoption recommendations
+```

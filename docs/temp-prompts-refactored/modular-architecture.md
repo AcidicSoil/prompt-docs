@@ -1,3 +1,4 @@
+```md
 # Modular Architecture
 
 Trigger: $1
@@ -37,3 +38,4 @@ $4
 ### Open questions
 
 *To be filled*
+```

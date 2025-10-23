@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P6 CI/CD & Env"
 gate: "Review Gate"
@@ -28,3 +29,4 @@ Purpose: Create minimal Infrastructure-as-Code for the chosen platform plus CI h
 
 **Notes:** Prefer least privilege IAM and remote state with locking.
 
+```

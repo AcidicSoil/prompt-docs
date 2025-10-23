@@ -1,3 +1,4 @@
+```md
 <!-- $1=source TOML command name, $2=CLI command, $3=tags, $4=conversion scope, $5=translation steps, $6=example TOML input, $7=expected output structure -->
 
 **Gemini→Codex Mapper**
@@ -48,3 +49,4 @@ The output must be a Codex prompt file containing:
 - ≤7 placeholders
 - no verbatim sentences from input
 - literal `$` tokens remain
+```

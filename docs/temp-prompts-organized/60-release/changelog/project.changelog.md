@@ -1,3 +1,4 @@
+```md
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -116,3 +117,4 @@ Maintenance notes:
 - Prefer concise, user-facing descriptions over commit-level details.
 - Optionally link PR numbers or commit hashes if helpful.
 -->
+```

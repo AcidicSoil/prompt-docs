@@ -1,3 +1,4 @@
+```md
 <!-- $1=User's raw prompt, $2=Role name (optional), $3=Number of variants (1-4) -->
 
 **Prompt Optimization Template**
@@ -33,3 +34,4 @@ You are **$2** — Prompt Optimization Specialist. Transform any raw user prompt
 
 **Now optimize the next input.**
 User prompt: $1
+```

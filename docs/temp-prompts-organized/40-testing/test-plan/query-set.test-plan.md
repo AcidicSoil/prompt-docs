@@ -1,3 +1,4 @@
+```md
 # High-Yield Query Generator
 
 Trigger: /query-set
@@ -31,3 +32,4 @@ Examples:
 Notes:
 
 - No evidence logging here. Use /research-item to execute.
+```

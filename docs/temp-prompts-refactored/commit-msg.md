@@ -1,3 +1,4 @@
+```md
 /*
 Placeholder mapping:
 - $1 = Input description
@@ -16,3 +17,4 @@ Output format:
 }
 
 Ensure the output is a valid JSON object with the title and body fields.
+```

@@ -1,3 +1,4 @@
+```md
 <!-- 
 $1 = Input context path (e.g., "src/example.ts")
 $2 = Base branch (e.g., "origin/main")
@@ -33,3 +34,4 @@ Test Plan: [Optional]
 Risk: [Optional]
 Rollback Plan: [Optional]
 Release Notes: [Optional]
+```

@@ -1,3 +1,4 @@
+```md
 **Symbol Explanation Analysis**
 
 <!-- $1 = Symbol to explain (e.g., "HttpClient") -->
@@ -9,3 +10,4 @@ Output:
 - Structure findings under clear subheadings for quick scanning.
 - Document evidence: $2 (definition) and $3 (key usages).
 - Note documentation gaps: [specify any missing documentation or context]
+```

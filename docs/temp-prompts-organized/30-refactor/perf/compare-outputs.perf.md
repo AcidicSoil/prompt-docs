@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P9 Model Tactics"
 gate: "Model uplift"
@@ -25,3 +26,4 @@ Purpose: Run multiple models or tools on the same prompt and summarize best outp
 
 - Matrix comparison and a one-paragraph decision.
 
+```

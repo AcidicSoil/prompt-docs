@@ -1,3 +1,4 @@
+```md
 # plan-delta
 
 Trigger: /plan-delta
@@ -83,3 +84,4 @@ Notes:
 - Evidence log entries include `source`, `date`, `summary`, and optional `link`.
 - Selection rules: Continue (<20% change), Hybrid (20–40%), Full (>40% or goals/KPIs/architecture pivot).
 - If inputs are insufficient, emit a TERMINATION note with missing evidence keys.
+```

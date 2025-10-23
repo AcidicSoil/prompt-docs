@@ -1,3 +1,4 @@
+```md
 # Action Diagram
 
 ## Nodes
@@ -16,3 +17,4 @@ Placeholder mapping:
 - $3 = edge start node
 - $4 = edge end node
 -->
+```

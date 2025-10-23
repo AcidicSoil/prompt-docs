@@ -1,20 +1,24 @@
 # Produce Readme-Level Summary of Repo
 
 ## Inputs
+
 - Task: Generate a README-level summary of the repository.
 - Context sources: `git ls-files | sed -n '1,400p'`, `README.md`, and `docs/` directory.
 - Output format: structured report with clear sections (What, Why, How, Getting Started) and evidence documentation.
 
 ## Canonical taxonomy (exact strings)
+
 - gathering
 - generating
 - synthesizing
 - documenting
 
 ### Stage hints (for inference)
+
 - input → analysis → output (generation)
 
 ## Algorithm
+
 1. Extract signals from the prompt:
    - Titles/headings: "Produce a README-level summary", "Gather context", "Generate high-level summary"
    - Imperative verbs: produce, gather, generate, synthesize, document
@@ -57,11 +61,13 @@
    - No existing metadata; all values inferred or explicit
 
 ## Assumptions & Constraints
+
 - Output is exactly one document: metadata block + blank line + original body.
 - Only 7 placeholders used (within limit).
 - All fields validated against schema and constraints.
 
 ## Validation
+
 - Identifier matches normalized id pattern (`kebab-case`, starts with letter, lowercase)
 - Categories non-empty and from canonical taxonomy (≤3)
 - Stage is one of: input, analysis, generation → valid via mapping rules
@@ -71,6 +77,7 @@
 - Original body unchanged
 
 ## Output format examples
+
 - Identifier: `produce-readme-summary-of-repo`
 - Categories: gathering, generating, synthesizing
 - Stage: generation

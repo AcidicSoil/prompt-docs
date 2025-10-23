@@ -1,3 +1,4 @@
+```md
 ---
 phase: "P5 Quality Gates & Tests"
 gate: "Test Gate"
@@ -34,3 +35,4 @@ Expected Output:
 
 - Focus on src/auth/login.ts — 0% branch coverage; add error path test.
 
+```
